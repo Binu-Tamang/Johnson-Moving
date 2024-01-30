@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  section {
+    margin-top: 5rem;
+  }
+  p {
+    color: #606060;
+    /* font-family: "Heebo", sans-serif; */
+    font-size: 16px;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+/* ===nav up css======= */
+.nav-up {
+    background: #00273d;
+    align-items: center;
+    display: flex;
+}
+ul.navbar-contact,
+ul.nav-social-list {
+    display: flex;
+    padding: 10px 0;
+    margin: 0;
+}
+
+ul.navbar-contact,
+ul.nav-social-list li {
+    margin: 0 6px;
+    list-style: none;
+}
+
+ul.nav-social-list {
+    justify-content: end;
+}
+
+ul.navbar-contact a,
+ul.nav-social-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.navbar-contact li a i,
+ul.nav-social-list li a i {
+    font-size: 17px;
+    margin-right: 4px;
+}
+
+/* ============navbar listed menu=========== */
+.navbar-brand img {
+    width: 250px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+ul.navbar-nav li a {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: .25s;
+    color: #00273d;
+}
+
+.navbar-nav .nav-link.active {
+    color: #479c84;
+}
+
+.qoute-btn a {
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.2s all ease;
+    color: #fff;
+    background: #4d9784;
+    border: 1px solid;
+}
+
+.qoute-btn a:hover {
+    border: 1px solid #4d9784;
+    background: transparent;
+    color: #00273d;
+}
+/* ====banner slider css===== */
+.banner-slider img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* =====why choose us css part========== */
+section.why-web {
+    text-align: center;
+    margin: 0;
+    padding: 5rem 0;
+}
+
+.span-line {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.span-line span {
+    width: 70px;
+    background: #4d9784;
+    color: #4d9784;
+    height: 4px;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+.span-line {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.span-line span {
+    width: 70px;
+    background: #4d9784;
+    color: #4d9784;
+    height: 4px;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.web-header {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #00273d;
+    text-align: center;
+}
+
+.why-choose-box {
+    padding: 2rem 0;
+}
+
+.choose-d {
+    background: #f5f5f5;
+    padding: 2rem 1rem;
+    display: flex;
+}
+
+.choose-icon i {
+    font-size: 35px;
+    color: #4d9784;
+}
+
+.choose-details {
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+strong {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #00273d;
+}
+
+.choose-learn {
+    padding: 10px 0;
+}
+
+.choose-learn i {
+    color: #4d9784;
+}
+
+/* =======abut css========= */
+section.about-company {
+    padding-bottom: 4rem;
+}
+.about-company-imd::before {
+    content: "";
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    width: 100%;
+    height: 100%;
+    border: 4px solid;
+    color: #4d9784;
+    height: 100%;
+    z-index: -1;
+}
+.about-company-details .span-line {
+    justify-content: start;
+    display: flex;
+}
+
+.web-btn a {
+    padding: 10px  20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.2s all ease;
+    color: #fff;
+    background: #4d9784;
+    border: 1px solid;
+}
+
+.web-btn {
+    padding: 2rem 0;
+}
+
+.about-company-details strong {
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.web-btn a:hover {
+    border: 1px solid #4d9784;
+    color: #00273d;
+    background: transparent;
+}
+
+.abt-img-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-company-details {
+    padding-left: 2rem;
+}
+
+.yr-exp {
+    background: #ffffffcf;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-company-imd {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.yr-exp span {
+    font-size: 30px;
+    color: #4d9784;
+    font-weight: 700;
+}
+
+.yr-exp p {
+    color: #00273d;
+    font-weight: 600;
+    margin-left: 8px;
+    width: 100px;
+    line-height: 18px;
+}
+
+img.abt-img-2 {
+    background: #fff;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    bottom: -3rem;
+    right: 0;
+    object-fit: cover;
+}
+/* ======services css part========== */
+.our-serv-box {
+    padding: 1rem 0;
+}.our-serv-box {}
+
+
+.serv-box i {
+    display: block;
+    font-size: 30px;
+    color: #4d9784;
+    padding: 10px;
+    width: 60px;
+    background: #fff;
+    margin-left: 10px;
+}
+
+.serv-box.box-dash::after {
+    content: "";
+    border: 2px dashed #4d9784;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    z-index: -1;
+}
+
+.serv-box {
+    position: relative;
+    margin-bottom: 3rem;
+    width: 90%;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.choose-learn a i {
+    color: #4d9784;
+    font-size: 15px;
+    display: table-footer-group;
+}
+
+.choose-learn a {
+    color: #00273d;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 12px 0;
+    letter-spacing: 1px;
+    transition: 0.2s all ease;
+}
+.choose-learn a:hover {
+    color: #4d9784;
+}
+.serv-box.box-serv-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left: 0;
+}
+
+.serv-topic {
+    letter-spacing: 1px;
+    color: #00273d;
+    font-weight: 700;
+}
+.serv-box.box-dash.serv-box-limit {
+    margin-bottom: 1rem;
+}
+section.main-serv .web-btn {
+    text-align: center;
+}
