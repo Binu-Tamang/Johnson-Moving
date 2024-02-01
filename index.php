@@ -19,10 +19,32 @@
     <!-- header part ends -->
 
     <!-- nav slider html -->
-    <div class="banner-slider">
-        <img src="assets/img/banner-1.png" alt="banner photo">
+    <!-- banner slider Start -->
+    <div class="container-fluid header bg-white p-0">
+        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+            <div class="col-md-6 p-5 mt-lg-5">
+                <strong class="display-5 animated fadeIn mb-4">Welcome To <span class="text-primary">JohnSon </span> Moving And Storage</strong>
+                <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
+                    sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                <div class="web-btn">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-6 animated fadeIn">
+                <div class="owl-carousel header-carousel">
+                    <div class="owl-carousel-item">
+                        <img class="img-fluid" src="assets/img/banner-1.png" alt="banner">
+                    </div>
+                    <div class="owl-carousel-item">
+                        <img class="img-fluid" src="assets/img/banner-2.png" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- banner slider End -->
 
+    <!-- why choos us starts--------------------- -->
     <section class="why-web">
         <div class="container">
             <h1 class="web-header">Why People Choose Us</h1>
@@ -34,7 +56,7 @@
                     <div class="col-md-4">
                         <div class="choose-d">
                             <div class="choose-icon">
-                                <i class="fa-solid fa-boxes-packing"></i>
+                                <i class="fa-solid fa-truck"></i>
                             </div>
                             <div class="choose-details">
                                 <strong>Professional Movers</strong>
@@ -51,7 +73,7 @@
                                 <i class="fa-solid fa-boxes-packing"></i>
                             </div>
                             <div class="choose-details">
-                                <strong>Protection Service</strong>
+                                <strong>Affordable storage </strong>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, repudiandae. </p>
                                 <div class="choose-learn">
                                     <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
@@ -62,7 +84,7 @@
                     <div class="col-md-4">
                         <div class="choose-d">
                             <div class="choose-icon">
-                                <i class="fa-solid fa-boxes-packing"></i>
+                                <i class="fa-solid fa-box-open"></i>
                             </div>
                             <div class="choose-details">
                                 <strong>Packing & Storage</strong>
@@ -100,9 +122,11 @@
                         </div>
                         <strong>We can handle all your moving needs, be it apartment, home, office or
                             commercial.</strong>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor qui eligendi facere
-                            distinctio maxime doloremque eos, minima ipsam aperiam, odit aliquid recusandae quisquam
-                            dicta placeat! Officia nihil assumenda neque.</p>
+                        <p>We’re the moving and storage experts! Whether you need a mover for your home, office,
+                            apartment, organ or piano, Johnson Moving and Storage is the company you can trust. We move
+                            with care and we service the entire Washington DC, Maryland and Virginia area. We specialize
+                            in local moves in Washington DC, Southern Maryland and Fairfax. Va. Let us put our 30 years
+                            of experience to work for you. We look forward to helping you make your move a success.</p>
                         <div class="web-btn">
                             <a href="#">Read More</a>
                         </div>
@@ -135,10 +159,73 @@
         </div>
     </section>
 
+    <!-- ========affordable moving and storage======== -->
+    <section class="afd-mov-stg">
+        <div class="container">
+            <h4 class="web-header">Affordable Moving and Storage Services in MD, VA, and the Washington D.C. Region</h4>
+            <div class="span-line">
+                <span class="web-line"></span>
+            </div>
+            <p>You can also rely on Johnson Moving & Storage when it comes to the safekeeping of your prized
+                possessions. Our storage facility in the Washington D.C. region features containerized vaults that are
+                dust, moisture-free, imperious to insect or rodent damage, and even pilfering.</p>
+            <div class="afd-mov-details">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="adf-img">
+                            <img src="assets/img/moving-truck-md-logo.jpg" alt="truck">
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="storage-list">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="serv-stro-list">
+                                        <li><i class="fa-solid fa-arrow-right"></i> Complete Packing Services</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Residential/Commercial</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Home/Apartment</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Organ & Piano Moving</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> On Time Pick-up & Delivery</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Affordable Storage</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="serv-stro-list">
+                                        <li><i class="fa-solid fa-arrow-right"></i> Easily Accessible</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Reasonable Rates</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Local & Long Distance</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> International Shipping</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Short Notice Moves</li>
+                                        <li><i class="fa-solid fa-arrow-right"></i> Flat Rate or Hourly</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>We are fully licensed and insured and maintain an exemplary record with our clients and the
+                Better Business Bureau. The owner, Curtis Johnson, maintains a commitment to hire the very
+                best
+                and provide exceptional service in terms of care, efficiency, and courtesy. Curtis explains:
+                “We
+                draw heavily upon our resources within the area’s college athletic community. We have
+                assembled
+                a professional work force whose renowned size and strength are complemented by our standards
+                of
+                skill, intellect, and integrity.”</p>
+            <div class="web-btn text-center">
+                <a href="#">View More</a>
+            </div>
+        </div>
+    </section>
+
     <!-- services section html============ -->
     <section class="main-serv">
         <div class="container">
-            <h3 class="web-header">Swervice We Provided</h3>
+            <h3 class="web-header">Service We Provided</h3>
             <div class="span-line">
                 <span class="web-line"></span>
             </div>
@@ -203,19 +290,6 @@
             </div>
             <div class="web-btn">
                 <a href="#"> More Services</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ====cartoon and packing html========= -->
-    <section class="crt-pck-main">
-        <div class="container">
-            <h4 class="web-header">Cartons & Packing Materials</h4>
-            <div class="span-line">
-                <span class="web-line"></span>
-            </div>
-            <div class="crt-pck-img">
-                <img src="assets/img/cartons_packingmaterialsLAR.jpg" alt="cartoon and packing">
             </div>
         </div>
     </section>

@@ -1,3 +1,17 @@
+// Header carousel
+$(".header-carousel").owlCarousel({
+  autoplay: true,
+  smartSpeed: 1500,
+  items: 1,
+  dots: true,
+  loop: true,
+  nav : true,
+  navText : [
+      '<i class="fa-solid fa-angle-left"></i>',
+      '<i class="fa-solid fa-angle-right"></i>'
+  ]
+});
+
 // ========js for the counter
 const counterUp = window.counterUp.default;
 

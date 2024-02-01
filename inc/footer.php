@@ -15,10 +15,10 @@
                     <div class="footer-box">
                         <h5 class="footer-h">Quicks Links</h5>
                         <ul class="imp-link">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Area We Serve</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Our Services</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Area We Serve</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

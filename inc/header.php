@@ -33,28 +33,33 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item btn-li">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item btn-li">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item btn-li">
                             <a class="nav-link" href="#">Our Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item btn-li">
                             <a class="nav-link" href="#">Area We Serve</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item btn-li">
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item btn-li">
                             <a class="nav-link" href="#">FAQs</a>
                         </li>
+                        <li class="nav-item d-block d-md-none">
+                            <div class="qoute-btn">
+                                <a href="#">Request A Qoute</a>
+                            </div>
+                        </li>
                     </ul>
-                </div>
-                <div class="qoute-btn">
-                    <a href="#">Request A Qoute</a>
+                    <div class="qoute-btn d-none d-md-block">
+                        <a href="#">Request A Qoute</a>
+                    </div>
                 </div>
             </div>
         </nav>
