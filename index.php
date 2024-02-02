@@ -18,31 +18,57 @@
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
 
-    <!-- nav slider html -->
     <!-- banner slider Start -->
-    <div class="container-fluid header bg-white p-0">
-        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-            <div class="col-md-6 p-5 mt-lg-5">
-                <strong class="display-5 animated fadeIn mb-4">Welcome To <span class="text-primary">JohnSon </span> Moving And Storage</strong>
-                <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                    sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                <div class="web-btn">
-                    <a href="#">Read More</a>
+    <div class="container-fluid position-relative p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="assets/img/banner-1.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3 banner-header" style="max-width: 900px;">
+                            <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Moving &
+                                Storage</span>
+                            <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Welcome To <br> JohnSon
+                                Moving And Storage</strong>
+                            <div class="banner-slider-btn">
+                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn
+                                    More</a>
+                                <a href="#" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
+                                    Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/img/banner-2.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3 banner-header" style="max-width: 900px;">
+                            <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
+                                Movers</span>
+                            <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Moving with Care, Every
+                                Step of the Way</strong>
+                            <div class="banner-slider-btn">
+                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn
+                                    More</a>
+                                <a href="#" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
+                                    Us</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 animated fadeIn">
-                <div class="owl-carousel header-carousel">
-                    <div class="owl-carousel-item">
-                        <img class="img-fluid" src="assets/img/banner-1.png" alt="banner">
-                    </div>
-                    <div class="owl-carousel-item">
-                        <img class="img-fluid" src="assets/img/banner-2.png" alt="banner">
-                    </div>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
     <!-- banner slider End -->
+
 
     <!-- why choos us starts--------------------- -->
     <section class="why-web">
@@ -406,11 +432,11 @@
     include('inc/js.php')
         ?>
 
-    <!-- <script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
-    if (navItems.length >= 1) {
-        navItems[0].classList.add("active");
-    }
-    </script> -->
+    <script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+        if (navItems.length >= 1) {
+            navItems[0].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

@@ -33,23 +33,74 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item btn-li">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <li class="nav-item ">
+                            <a class="nav-link btn-li active" aria-current="page" href="index.php">Home</a>
                         </li>
-                        <li class="nav-item btn-li">
-                            <a class="nav-link" href="#">About Us</a>
+                        <li class="nav-item">
+                            <a class="nav-link btn-li" href="#">About Us</a>
                         </li>
-                        <li class="nav-item btn-li">
-                            <a class="nav-link" href="#">Our Services</a>
+
+                        <li class="nav-item ">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle btn-li " href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services <i class="fa-solid fa-sort-down"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Moving</a></li>
+                                    <li><a class="dropdown-item" href="#">Storage</a></li>
+                                    <li><a class="dropdown-item" href="#">Packing</a></li>
+                                    <li><a class="dropdown-item" href="#">Crafting</a></li>
+                                    <li><a class="dropdown-item" href="#">Shipping</a></li>
+                                </ul>
+                            </div>
                         </li>
-                        <li class="nav-item btn-li">
-                            <a class="nav-link" href="#">Area We Serve</a>
+                        <li class="nav-item">
+                            <div class="dropdown mega-menu">
+                                <a class="nav-link dropdown-toggle btn-li" href="#" id="areaServeDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Area We Serve <i class="fa-solid fa-sort-down"></i>
+                                </a>
+                                <div class="dropdown-menu mega-menu" aria-labelledby="areaServeDropdown">
+                                <strong>City 1</strong>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="mega-menu-a">
+                                                <div class="city-name-list">
+                                                    <a class="dropdown-item" href="#">Location 1A</a>
+                                                    <a class="dropdown-item" href="#">Location 1B</a>
+                                                    <a class="dropdown-item" href="#">Location 1C</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="mega-menu-a">
+                                                <div class="city-name-list">
+                                                    <a class="dropdown-item" href="#">Location 1A</a>
+                                                    <a class="dropdown-item" href="#">Location 1B</a>
+                                                    <a class="dropdown-item" href="#">Location 1C</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="mega-menu-a">
+                                                <div class="city-name-list">
+                                                    <a class="dropdown-item" href="#">Location 1A</a>
+                                                    <a class="dropdown-item" href="#">Location 1B</a>
+                                                    <a class="dropdown-item" href="#">Location 1C</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item btn-li">
-                            <a class="nav-link" href="#">Contact Us</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-li" href="#">Contact Us</a>
                         </li>
-                        <li class="nav-item btn-li">
-                            <a class="nav-link" href="#">FAQs</a>
+                        <li class="nav-item">
+                            <a class="nav-link btn-li" href="#">FAQs</a>
                         </li>
                         <li class="nav-item d-block d-md-none">
                             <div class="qoute-btn">

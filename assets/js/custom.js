@@ -11,6 +11,7 @@ $(".header-carousel").owlCarousel({
       '<i class="fa-solid fa-angle-right"></i>'
   ]
 });
+new WOW().init();
 
 // ========js for the counter
 const counterUp = window.counterUp.default;
