@@ -19,6 +19,8 @@
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Our Services</a></li>
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Area We Serve</a></li>
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Blogs</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FAQs</a></li>
                         </ul>
                     </div>
                 </div>

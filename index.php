@@ -28,7 +28,8 @@
                         <div class="p-3 banner-header" style="max-width: 900px;">
                             <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Moving &
                                 Storage</span>
-                            <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Welcome To <br> JohnSon
+                            <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Welcome
+                                To <br> JohnSon
                                 Moving And Storage</strong>
                             <div class="banner-slider-btn">
                                 <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn
@@ -45,7 +46,8 @@
                         <div class="p-3 banner-header" style="max-width: 900px;">
                             <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
                                 Movers</span>
-                            <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Moving with Care, Every
+                            <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Moving
+                                with Care, Every
                                 Step of the Way</strong>
                             <div class="banner-slider-btn">
                                 <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn
@@ -73,13 +75,13 @@
     <!-- why choos us starts--------------------- -->
     <section class="why-web">
         <div class="container">
-            <h1 class="web-header">Why People Choose Us</h1>
+            <h1 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">Why People Choose Us</h1>
             <div class="span-line">
                 <span class="web-line"></span>
             </div>
             <div class="why-choose-box">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow slideInLeft" data-wow-offset="2" data-wow-duration="2s">
                         <div class="choose-d">
                             <div class="choose-icon">
                                 <i class="fa-solid fa-truck"></i>
@@ -107,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow slideInRight" data-wow-offset="2" data-wow-duration="2s">
                         <div class="choose-d">
                             <div class="choose-icon">
                                 <i class="fa-solid fa-box-open"></i>
@@ -130,7 +132,7 @@
     <section class="about-company">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 wow slideInLeft" data-wow-offset="2" data-wow-duration="2s">
                     <div class="about-company-imd">
                         <img class="abt-img-1" src="assets/img/johnson-movers-l.jpg" alt="company truck">
                         <!-- <div class="yr-exp">
@@ -140,9 +142,9 @@
                         <img class="abt-img-2" src="assets/img/label-your-boxes-l.jpg" alt="two men">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow slideInRight" data-wow-offset="2" data-wow-duration="2s">
                     <div class="about-company-details">
-                        <h2 class="web-header text-start">About Us</h2>
+                        <h2 class="web-headerDown slideInLeft" data-wow-offset="2" data-wow-itext-start">About Us</h2>
                         <div class="span-line">
                             <span class="web-line"></span>
                         </div>
@@ -188,7 +190,8 @@
     <!-- ========affordable moving and storage======== -->
     <section class="afd-mov-stg">
         <div class="container">
-            <h4 class="web-header">Affordable Moving and Storage Services in MD, VA, and the Washington D.C. Region</h4>
+            <h4 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">Affordable Moving and
+                Storage Services in MD, VA, and the Washington D.C. Region</h4>
             <div class="span-line">
                 <span class="web-line"></span>
             </div>
@@ -197,14 +200,14 @@
                 dust, moisture-free, imperious to insect or rodent damage, and even pilfering.</p>
             <div class="afd-mov-details">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow slideInLeft" data-wow-offset="2" data-wow-duration="2s">
                         <div class="adf-img">
                             <img src="assets/img/moving-truck-md-logo.jpg" alt="truck">
                         </div>
 
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow slideInRight" data-wow-offset="2" data-wow-duration="2s">
                         <div class="storage-list">
                             <div class="row">
                                 <div class="col-md-6">
@@ -251,7 +254,7 @@
     <!-- services section html============ -->
     <section class="main-serv">
         <div class="container">
-            <h3 class="web-header">Service We Provided</h3>
+            <h3 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">Service We Provided</h3>
             <div class="span-line">
                 <span class="web-line"></span>
             </div>
@@ -262,7 +265,7 @@
                             <h3 class="serv-topic">Moving every customer with care</h3>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
                         <div class="serv-box box-dash">
                             <i class="fa-solid fa-gears"></i>
                             <strong>Moving</strong>
@@ -272,7 +275,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
                         <div class="serv-box box-dash">
                             <i class="fa-solid fa-gears"></i>
                             <strong>Storage</strong>
@@ -282,7 +285,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
                         <div class="serv-box box-dash serv-box-limit">
                             <i class="fa-solid fa-gears"></i>
                             <strong>Packing</strong>
@@ -292,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
                         <div class="serv-box box-dash serv-box-limit">
                             <i class="fa-solid fa-gears"></i>
                             <strong>Crating</strong>
@@ -302,7 +305,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
                         <div class="serv-box box-dash serv-box-limit">
                             <i class="fa-solid fa-gears"></i>
                             <strong>Shipping</strong>
@@ -320,9 +323,59 @@
         </div>
     </section>
 
+
+    <!-- ===========cartoon and Packing====== -->
+    <section class="cartoon-pck">
+        <div class="container">
+            <h4 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">JohSon Cartons And Packing
+                Materials</h4>
+            <div class="span-line">
+                <span class="web-line"></span>
+            </div>
+            <p>Johnson’s offers local or long distance moving, planned in advance or on short notice. We have reasonable
+                hourly rates and we’re certain you will find them affordable. <br> <br> We also have boxes, wardrobes and packing material available for you. Our professional drivers and
+                movers always use the white glove approach in the handling of your valuables. We provide free estimates
+                and gladly accept MasterCard, Visa, Discover and American Express. Please ask about our Senior Citizen
+                coupon and other cash discounts.
+            </p>
+
+            <div class="materials-model">
+                <!-- Button trigger modal -->
+                <button type="button"
+                    class="btn-modal btn btn-primary web-btn text-center wow pulse animated text-center"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal" data-wow-delay="300ms"
+                    data-wow-iteration="infinite" data-wow-duration="2s"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
+                    Cartons & Packing Materials
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <strong class="modal-title fs-5" id="exampleModalLabel">JohSon Cartons & Packing Materials
+                                </strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- testimonial plan -->
     <section class="testimonial-plan">
-        <h4 class="web-header">Testimonial</h4>
+        <h4 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">Testimonial</h4>
         <div class="span-line">
             <span class="web-line"></span>
         </div>

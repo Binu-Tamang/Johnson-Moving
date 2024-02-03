@@ -62,7 +62,7 @@
                                     Area We Serve <i class="fa-solid fa-sort-down"></i>
                                 </a>
                                 <div class="dropdown-menu mega-menu" aria-labelledby="areaServeDropdown">
-                                <strong>City 1</strong>
+                                <!-- <strong>City 1</strong> -->
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="mega-menu-a">
@@ -98,6 +98,9 @@
 
                         <li class="nav-item">
                             <a class="nav-link btn-li" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-li" href="#">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-li" href="#">FAQs</a>
