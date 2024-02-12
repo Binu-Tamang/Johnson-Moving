@@ -12,6 +12,10 @@ $(".header-carousel").owlCarousel({
   ]
 });
 
+$(function() {
+  $('#main-menu').smartmenus();
+});
+
 // wow js
 new WOW().init();
 

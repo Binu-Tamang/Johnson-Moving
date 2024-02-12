@@ -5,7 +5,8 @@
                 <div class="col-md-6">
                     <div class="nav-up-contact">
                         <ul class="navbar-contact">
-                            <li><a href="tel:202-329-5995"><i class="fa-solid fa-phone"></i> 202-329-5995</a></li>
+                            <li><a href="tel:301-868-0320"><i class="fa-solid fa-phone"></i> 301-868-0320</a></li>
+                            <li><a href="tel:301-894-4215"><i class="fa-solid fa-phone"></i> 301-894-4215</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +33,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav " id="main-menu">
                         <li class="nav-item ">
                             <a class="nav-link btn-li active" aria-current="page" href="index.php">Home</a>
                         </li>
@@ -63,8 +64,8 @@
                                 </a>
                                 <div class="dropdown-menu mega-menu" aria-labelledby="areaServeDropdown">
                                 <!-- <strong>City 1</strong> -->
-                                    <div class="row">
-                                        <div class="col-md-4">
+                                    <div class="row d-block d-md-flex">
+                                        <div class="col-lg-4 col-md-6">
                                             <div class="mega-menu-a">
                                                 <div class="city-name-list">
                                                     <a class="dropdown-item" href="#">Location 1A</a>
@@ -73,7 +74,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-lg-4 col-md-6">
                                             <div class="mega-menu-a">
                                                 <div class="city-name-list">
                                                     <a class="dropdown-item" href="#">Location 1A</a>
@@ -82,7 +83,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-lg-4 col-md-6">
                                             <div class="mega-menu-a">
                                                 <div class="city-name-list">
                                                     <a class="dropdown-item" href="#">Location 1A</a>

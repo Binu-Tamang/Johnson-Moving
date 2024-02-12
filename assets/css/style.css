@@ -201,6 +201,7 @@ section.why-web {
   text-align: center;
   margin: 0;
   padding: 5rem 0;
+  /* padding-bottom: 0; */
 }
 
 .span-line {
@@ -319,7 +320,7 @@ strong {
 } */
 /* =======abut css========= */
 section.about-company {
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
 }
 
 .about-company-imd::before {
@@ -465,6 +466,7 @@ img.abt-img-2 {
   border: 2px solid #dee2e6;
   border-top: 0;
   border-bottom: 0;
+  padding: 0 1rem;
 }
 
 /* ======services css part========== */
@@ -1017,11 +1019,11 @@ span.text-primary {
 }
 /* Override Bootstrap's dropdown-menu styling */
 .dropdown-menu.mega-menu {
-  min-width: 800px;
+  min-width: 800px;  
   width: 100%;
   left: -20rem;
   right: 0;
-  padding: 0 15px; /* Adjust the padding as needed */
+  padding: 15px; /* Adjust the padding as needed */
   /* max-width: 500px; */
   /* min-width: 500px; */
   margin-top: 20px;
@@ -1235,9 +1237,122 @@ a.btn.btn-outline-light.py-md-3.px-md-5.animated.slideInRight {
   width: 100%;
   min-width: 600px;
 }
+ul.navbar-contact li {
+  margin-right: 20px;
+}
 
+ul.navbar-contact li a i {
+  font-size: 14px;
+}
 
 
 
 
 /* ============================= */
+.c-p-materials-img img {
+  width: 100%;
+}
+
+.p-box-wrap {
+  padding-top: 25px;
+}
+
+/* =====home quote css starts======== */
+.quote-h-content {
+  padding: 1rem 0;
+}
+
+.quote-h-content ul li span {
+  background: #4d9784;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.quote-h-content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.quote-h-content ul li {
+  /* margin-bottom: 30px; */
+  list-style: none;
+  padding: 8px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.quote-h-form {
+  padding-top: 1rem;
+  /* height: 400px; */
+}
+
+form.estimatehp-form {
+  border: 1px solid #4d9784;
+  padding: 3rem 1.5rem;
+  background: #4d9784;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* margin: 0 3rem; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.formfield {
+  position: relative;
+  margin-bottom: 14px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.formfield i {
+  color: #4d9784;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.formfield input {
+  padding: 10px 0;
+  padding-left: 30px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+button.submit-form {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.2s all ease;
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.formfield.formfield-submit {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+section.home-quote {
+  padding-bottom: 3rem;
+}
+
+.bounce_wrapper{
+    visibility: visible;
+    animation-duration: 2s;
+    animation-delay: 300ms;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+}

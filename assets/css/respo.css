@@ -1,0 +1,383 @@
+@media (min-width: 226px) and (max-width: 560px) {
+    ul.navbar-nav {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    
+    li.nav-item .qoute-btn {
+        padding-top: 12px;
+    }
+    
+    a.nav-link.btn-li {
+        padding-left: 10px;
+    }
+    /* =============== */
+    .carousel-item img {
+        height: 500px;
+    }
+    
+    .banner-header {
+        padding: 0 2.5rem !important;
+    }
+    .web-header {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .choose-d {
+        margin: 0.5rem 0;
+    }
+    
+    .why-choose-box {
+        padding: 1rem;
+    }
+    
+    section.why-web {
+        padding: 2.5rem 0;
+    }
+    
+    .about-company-imd::before {
+        display: none;
+    }
+    
+    section {
+        margin-top: 3rem;
+    padding:0 1rem;
+    }
+    
+    .about-company-details {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .counter-box.border-counter {
+        border: 1px solid #dee2e6;
+        border-left: 0;
+        border-right: 0;
+        padding: 1rem;
+    }
+    
+    .counter-sec {
+        margin-top: 0rem;
+    }
+    
+    form.estimatehp-form {
+        margin: 0 1rem;
+    }
+    
+    ul.serv-stro-list {
+        margin: 0;
+    }
+    
+    .serv-box {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    
+    .review-wrap {
+        padding-bottom: 2.5rem;
+    }
+    footer.main-footer {
+        padding: 1rem;
+    }
+    .footer-h {
+        margin-bottom: 5px;
+    }
+    
+    .footer-box {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 560px) and (max-width: 575px) {
+    ul.navbar-nav {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    
+    li.nav-item .qoute-btn {
+        padding-top: 12px;
+    }
+    
+    a.nav-link.btn-li {
+        padding-left: 10px;
+    }
+    /* =============== */
+    .carousel-item img {
+        height: 500px;
+    }
+    
+    .banner-header {
+        padding: 0 2.5rem !important;
+    }
+    .web-header {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .choose-d {
+        margin: 0.5rem 0;
+    }
+    
+    .why-choose-box {
+        padding: 1rem;
+    }
+    
+    section.why-web {
+        padding: 2.5rem 0;
+    }
+    
+    .about-company-imd::before {
+        display: none;
+    }
+    
+    section {
+        margin-top: 3rem;
+    padding:0 1rem;
+    }
+    
+    .about-company-details {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .counter-box.border-counter {
+        border: 1px solid #dee2e6;
+        border-left: 0;
+        border-right: 0;
+        padding: 1rem;
+    }
+    
+    .counter-sec {
+        margin-top: 0rem;
+    }
+    
+    form.estimatehp-form {
+        margin: 0 1rem;
+    }
+    
+    ul.serv-stro-list {
+        margin: 0;
+    }
+    
+    .serv-box {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    
+    .review-wrap {
+        padding-bottom: 2.5rem;
+    }
+    footer.main-footer {
+        padding: 1rem;
+    }
+    .footer-h {
+        margin-bottom: 5px;
+    }
+    
+    .footer-box {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+    ul.navbar-nav {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    
+    li.nav-item .qoute-btn {
+        padding-top: 12px;
+    }
+    
+    a.nav-link.btn-li {
+        padding-left: 10px;
+    }
+    /* =============== */
+    .carousel-item img {
+        height: 500px;
+    }
+    
+    .banner-header {
+        padding: 0 2.5rem !important;
+    }
+    .web-header {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .choose-d {
+        margin: 0.5rem 0;
+    }
+    
+    .why-choose-box {
+        padding: 1rem;
+    }
+    
+    section.why-web {
+        padding: 2.5rem 0;
+    }
+    
+    .about-company-imd::before {
+        display: none;
+    }
+    
+    section {
+        margin-top: 3rem;
+    padding:0 1rem;
+    }
+    
+    .about-company-details {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .counter-box.border-counter {
+        /* border: 1px solid #dee2e6; */
+        /* border-left: 0; */
+        /* border-right: 0; */
+        padding: 1rem;
+    }
+    
+    .counter-sec {
+        margin-top: 0rem;
+    }
+    
+    form.estimatehp-form {
+        margin: 0 1rem;
+    }
+    
+    ul.serv-stro-list {
+        margin: 0;
+    }
+    
+    .serv-box {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    
+    .review-wrap {
+        padding-bottom: 2.5rem;
+    }
+    footer.main-footer {
+        padding: 1rem;
+    }
+    .footer-h {
+        margin-bottom: 5px;
+    }
+    
+    .footer-box {
+        margin-bottom: 20px;
+    }
+    .choose-d {
+        display: block;
+    }
+    .width-wrap{
+        width: 100%;
+    }
+    
+}
+@media (min-width: 767px) and (max-width: 991px) {
+    .choose-d {
+        display: block;
+    }
+    .width-wrap{
+        width: 100%;
+    }
+    .about-company-details {
+        margin-top: 1rem;
+    }
+}
+@media (min-width: 992px) {
+}
+
+@media (max-width: 600px) {
+}
+@media (max-width: 35em) {
+    ul.navbar-nav {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    
+    li.nav-item .qoute-btn {
+        padding-top: 12px;
+    }
+    
+    a.nav-link.btn-li {
+        padding-left: 10px;
+    }
+    /* =============== */
+    .carousel-item img {
+        height: 500px;
+    }
+    
+    .banner-header {
+        padding: 0 2.5rem !important;
+    }
+    .web-header {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .choose-d {
+        margin: 0.5rem 0;
+    }
+    
+    .why-choose-box {
+        padding: 1rem;
+    }
+    
+    section.why-web {
+        padding: 2.5rem 0;
+    }
+    
+    .about-company-imd::before {
+        display: none;
+    }
+    
+    section {
+        margin-top: 3rem;
+    padding:0 1rem;
+    }
+    
+    .about-company-details {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .counter-box.border-counter {
+        border: 1px solid #dee2e6;
+        border-left: 0;
+        border-right: 0;
+        padding: 1rem;
+    }
+    
+    .counter-sec {
+        margin-top: 0rem;
+    }
+    
+    form.estimatehp-form {
+        margin: 0 1rem;
+    }
+    
+    ul.serv-stro-list {
+        margin: 0;
+    }
+    
+    .serv-box {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    
+    .review-wrap {
+        padding-bottom: 2.5rem;
+    }
+    footer.main-footer {
+        padding: 1rem;
+    }
+    .footer-h {
+        margin-bottom: 5px;
+    }
+    
+    .footer-box {
+        margin-bottom: 20px;
+    }
+}
