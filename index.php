@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font awesome,custom css,bootstrap css -->
-    <?php include('inc/css.php') ?>
-
-
-    <!-- favicon link -->
-    <link rel="icon" type="images/png" href="assets/img/jm-logo.png">
-    <title>Johnson Moving And Storage </title>
-</head>
-
-<body>
     <!-- header parts start -->
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
@@ -201,7 +186,7 @@
                             <ul>
                                 <li><span>01</span> Fill out the form with your details</li>
                                 <li><span>02</span> We receive your details</li>
-                                <li><span>03</span> We email you back wth the free estimate</li>
+                                <li><span>03</span> We email you back with the free estimate</li>
                             </ul>
                         </div>
                     </div>
@@ -538,6 +523,3 @@
             navItems[0].classList.add("active");
         }
     </script>
-</body>
-
-</html>

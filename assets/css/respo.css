@@ -1,4 +1,7 @@
 @media (min-width: 226px) and (max-width: 560px) {
+    li.nav-item {
+        width: 50%;
+    }
     ul.navbar-nav {
         margin: 0;
         padding-bottom: 2rem;
@@ -89,6 +92,9 @@
     }
 }
 @media (min-width: 560px) and (max-width: 575px) {
+    li.nav-item {
+        width: 50%;
+    }
     ul.navbar-nav {
         margin: 0;
         padding-bottom: 2rem;
@@ -179,6 +185,9 @@
     }
 }
 @media (min-width: 575px) and (max-width: 767px) {
+    li.nav-item {
+        width: 50%;
+    }
     ul.navbar-nav {
         margin: 0;
         padding-bottom: 2rem;
@@ -292,6 +301,9 @@
 @media (max-width: 600px) {
 }
 @media (max-width: 35em) {
+    li.nav-item {
+        width: 50%;
+    }
     ul.navbar-nav {
         margin: 0;
         padding-bottom: 2rem;
