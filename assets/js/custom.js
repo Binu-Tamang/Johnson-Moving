@@ -83,3 +83,21 @@ $(".owl-carousel.owl-carousel-credential").owlCarousel({
     },
   },
 });
+
+// scroll up to button js
+$(document).ready(function () {
+  const $scrollToTopButton = $("#scrollToTopButton");
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $scrollToTopButton.fadeIn();
+    } else {
+      $scrollToTopButton.fadeOut();
+    }
+  });
+
+  $scrollToTopButton.click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 300);
+    return false;
+  });
+});

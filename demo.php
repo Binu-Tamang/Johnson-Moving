@@ -18,25 +18,7 @@
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
 
-    <!-- ------nabar menu starts ===== -->
-    <nav class="nav-m-menu">
-        <ul class="menu-ul-nav">
-            <li><a href="#">Binu</a>
-                <div class="b-frnd">
-                    <ul class="b-frnd-ul">
-                        <li><a href="#">Dibu</a></li>
-                        <li><a href="#">Nanu</a></li>
-                        <li><a href="#">AAku</a></li>
-                        <li><a href="#">MEEMU</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="#">Rafik dada</a></li>
-            <li><a href="#">Nitesh</a></li>
-            <li><a href="#">Raju</a></li>
-            <li><a href="#">Saroj</a></li>
-        </ul>
-    </nav>
+    
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php

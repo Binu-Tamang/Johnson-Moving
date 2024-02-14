@@ -1,5 +1,10 @@
 <footer class="main-footer">
     <div class="container">
+        <!-- ====scroll up to btn -->
+        <div id="errorContainer">
+            <button id="scrollToTopButton" title="Scroll to Top"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        <!-- ====scroll up to btn -->
         <div class="footer-up">
             <div class="row">
                 <div class="col-md-3">

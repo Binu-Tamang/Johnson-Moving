@@ -1,4 +1,17 @@
 @media (min-width: 226px) and (max-width: 560px) {
+    .resp-box{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        padding-top: 2rem;
+    }
+    
+    li.nav-item a {
+        margin-bottom: 10px;
+    }
+    .navbar-brand img{
+        margin: 0;
+    }
     li.nav-item {
         width: 50%;
     }
@@ -89,9 +102,28 @@
     
     .footer-box {
         margin-bottom: 20px;
+    }
+    .web-banner-wrapper {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    
+    .page-header {
+        padding: 0;
+        margin: 0;
     }
 }
 @media (min-width: 560px) and (max-width: 575px) {
+    .resp-box{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        padding-top: 2rem;
+    }
+    
+    li.nav-item a {
+        margin-bottom: 10px;
+    }
     li.nav-item {
         width: 50%;
     }
@@ -183,8 +215,27 @@
     .footer-box {
         margin-bottom: 20px;
     }
+    .web-banner-wrapper {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    
+    .page-header {
+        padding: 0;
+        margin: 0;
+    }
 }
 @media (min-width: 575px) and (max-width: 767px) {
+    .resp-box{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        padding-top: 2rem;
+    }
+    
+    li.nav-item a {
+        margin-bottom: 10px;
+    }
     li.nav-item {
         width: 50%;
     }
@@ -282,9 +333,28 @@
     .width-wrap{
         width: 100%;
     }
+    .web-banner-wrapper {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    
+    .page-header {
+        padding: 0;
+        margin: 0;
+    }
     
 }
 @media (min-width: 767px) and (max-width: 991px) {
+    .resp-box{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        padding-top: 2rem;
+    }
+    
+    li.nav-item a {
+        margin-bottom: 10px;
+    }
     .choose-d {
         display: block;
     }
@@ -293,6 +363,15 @@
     }
     .about-company-details {
         margin-top: 1rem;
+    }
+    .web-banner-wrapper {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    
+    .page-header {
+        padding: 0;
+        margin: 0;
     }
 }
 @media (min-width: 992px) {
@@ -392,4 +471,37 @@
     .footer-box {
         margin-bottom: 20px;
     }
+    .navbar-brand img{
+        margin: 0
+    }
+    .navbar-expand-lg .navbar-collapse {
+        padding-top: 2rem;
+    }
+    
+    li.nav-item a {
+        margin-bottom: 10px;
+    }
+    .resp-box{
+        text-align: center;
+    }
+    .web-banner-wrapper {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    
+    .page-header {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+.quote-navbar {
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+}
+.box-nav-flx {
+    display: flex;
+    justify-content: space-around;
 }
