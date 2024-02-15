@@ -30,12 +30,9 @@
                     <div class="p-3 banner-header" style="max-width: 900px;">
                         <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
                             Movers</span>
-                        <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Moving
-                            with Care, Every
-                            Step of the Way</strong>
+                        <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Get a Free <br> Moving Services Quote</strong>
                         <div class="banner-slider-btn">
-                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn
-                                More</a>
+                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request A Quote</a>
                             <a href="#" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
                                 Us</a>
                         </div>
@@ -298,7 +295,7 @@
 <!-- services section html============ -->
 <section class="main-serv">
     <div class="container">
-        <h3 class="web-header wow slideInDown" data-wow-duration="1s">Service We Provided</h3>
+        <h3 class="web-header wow slideInDown" data-wow-duration="1s">Services We Provide</h3>
         <div class="span-line">
             <span class="web-line"></span>
         </div>
@@ -373,43 +370,55 @@
 </section>
 
 
-<section class="c-p-materials">
-    <div class="container">
-        <h4 class="web-header wow slideInDown" data-wow-duration="1s"> Cartons And Packing
-            Materials</h4>
-        <div class="span-line">
-            <span class="web-line"></span>
-        </div>
-        <div class="p-box-wrap">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 width-wrap">
-                    <div class="c-p-materials-img">
-                        <a href="assets/img/cartons_packingmaterialsLAR.jpg" class="image-link-js test-popup-link"
-                            id="my-popup" data-lightbox="pop-images" title="pop images">
-                            <img class="pop-images aos-init aos-animate"
-                                src="assets/img/cartons_packingmaterialsLAR.jpg"
-                                alt="cartoons and packing materials"></a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 width-wrap">
-                    <div class="c-p-materials-content">
-                        <p>Johnson’s offers local or long distance moving, planned in advance or on short notice. We
-                            have reasonable
-                            hourly rates and we’re certain you will find them affordable. <br> <br> We also have
-                            boxes,
-                            wardrobes and packing material available for you. Our professional drivers and
-                            movers always use the white glove approach in the handling of your valuables. We provide
-                            free estimates
-                            and gladly accept MasterCard, Visa, Discover and American Express. Please ask about our
-                            Senior Citizen
-                            coupon and other cash discounts.
-                        </p>
+<!-- ===========cartoon and Packing====== -->
+<section class="cartoon-pck">
+        <div class="container">
+            <h4 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">JohnSon Cartons And Packing
+                Materials</h4>
+            <div class="span-line">
+                <span class="web-line"></span>
+            </div>
+            <p>Johnson’s offers local or long distance moving, planned in advance or on short notice. We have reasonable
+                hourly rates and we’re certain you will find them affordable. <br> <br> We also have boxes, wardrobes and packing material available for you. Our professional drivers and
+                movers always use the white glove approach in the handling of your valuables. We provide free estimates
+                and gladly accept MasterCard, Visa, Discover and American Express. Please ask about our Senior Citizen
+                coupon and other cash discounts.
+            </p>
+
+            <div class="materials-model">
+                <!-- Button trigger modal -->
+                <button type="button"
+                    class="btn-modal btn btn-primary web-btn text-center wow pulse animated text-center"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal" data-wow-delay="300ms"
+                    data-wow-iteration="infinite" data-wow-duration="2s"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
+                    Cartons & Packing Materials
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <strong class="modal-title fs-5" id="exampleModalLabel">JohnSon Cartons & Packing Materials
+                                </strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <!-- testimonial plan -->
 <section class="testimonial-plan">

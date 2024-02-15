@@ -41,25 +41,27 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="logo-wrapper d-none d-md-block">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 resp-box">
-                            <a class="navbar-brand" href="index.php">
-                                <img src="assets/img/johnsonslogo.jpg" alt="logo">
-                            </a>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="nav-up-contact">
-                                <ul class="navbar-contact">
-                                    <li><i class="fa-solid fa-phone"></i> <a href="tel:301-868-0320">Call Us:
-                                            301-868-0320</a></li>
-                                    <li><i class="fa-solid fa-phone"></i> <a href="tel:301-894-4215">Call Us:
-                                            301-894-4215</a></li>
-                                </ul>
-                                <div class="qoute-btn d-none d-md-block">
-                                    <a href="#">Request A Qoute</a>
+        <div class="navbar-mid">
+            <div class="container f-con-nav">
+                <div class="logo-wrapper d-none d-md-block">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4 resp-box">
+                                <a class="navbar-brand" href="index.php">
+                                    <img src="assets/img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="nav-up-contact">
+                                    <ul class="navbar-contact">
+                                        <li><i class="fa-solid fa-phone"></i> <a href="tel:301-868-0320">Call Us:
+                                                301-868-0320</a></li>
+                                        <li><i class="fa-solid fa-phone"></i> <a href="tel:301-894-4215">Call Us:
+                                                301-894-4215</a></li>
+                                    </ul>
+                                    <div class="quote-btn d-none d-md-block">
+                                        <a href="#">Request A Quote</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -68,113 +70,96 @@
             </div>
         </div>
         <div class="nav-list">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav " id="main-menu">
-                            <li class="nav-item ">
-                                <a class="nav-link" aria-current="page" href="index.php">Home</a>
+            <nav class="menu-list-header">
+                <div class="navbar">
+                    <div class="logo navbar-brand d-block d-md-none"><a href="index.php">
+                            <img src="assets/img/logo.png" alt="logo">
+                        </a></div>
+                    <i class='bx bx-menu'></i>
+                    <div class="nav-links">
+                        <div class="sidebar-logo">
+                            <a class="navbar-brand" href="index.php">
+                                <img src="assets/img/logo.png" alt="logo">
+                            </a>
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <ul class="links">
+                            <li><a href="index.php">HOME</a></li>
+                            <li>
+                                <a href="#">ABOUT US</a>
+                                <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                                <ul class="htmlCss-sub-menu sub-menu">
+                                    <li><a href="#">Why Choose Us</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <a class="nav-link dropdown-toggle " href="about-us.php" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        About Us
-                                    </a>
-                                    <ul class="dropdown-menu drp-li" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="about-us.php">About Us</a></li>
-                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                                        <li><a class="dropdown-item" href="#">Blogs</a></li>
-                                        <li><a class="dropdown-item" href="#">FAQs</a></li>
-                                    </ul>
-                                </div>
+                            <li>
+                                <a href="services.php">OUR SERVICES</a>
+                                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                                <ul class="js-sub-menu sub-menu">
+                                    <li><a href="#">Moving</a></li>
+                                    <li><a href="#">Storage</a></li>
+                                    <li class="more">
+                                        <span><a href="#">More</a>
+                                            <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                        </span>
+                                        <ul class="more-sub-menu sub-menu">
+                                            <li><a href="#">Packing</a></li>
+                                            <li><a href="#">Crafting</a></li>
+                                            <li><a href="#">Shipping</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
-
-                            <li class="nav-item dropdown">
-                                <div class="dropdown">
-                                    <a class="nav-link dropdown-toggle " href="services.php" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Our Services
-                                    </a>
-                                    <ul class="dropdown-menu drp-li" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="services.php">Our Services</a></li>
-                                        <li><a class="dropdown-item" href="service-detail.php">Moving</a></li>
-                                        <li><a class="dropdown-item" href="service-detail.php">Storage</a></li>
-                                        <li><a class="dropdown-item" href="service-detail.php">Packing</a></li>
-                                        <li><a class="dropdown-item" href="service-detail.php">Crafting</a></li>
-                                        <li><a class="dropdown-item" href="service-detail.php">Shipping</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown mega-menu">
-                                <a class="nav-link dropdown-toggle" href="#" id="areaServeDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Area We Serve
-                                </a>
-                                <div class="dropdown-menu mega-menu" aria-labelledby="areaServeDropdown">
-                                    <div class="row d-block d-md-flex">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="mega-menu-a">
-                                                <div class="city-name-list">
-                                                    <a class="dropdown-item" href="#">Location 1A</a>
-                                                    <a class="dropdown-item" href="#">Location 1B</a>
-                                                    <a class="dropdown-item" href="#">Location 1C</a>
-                                                </div>
-                                            </div>
+                            <li>
+                                <a href="#">AREA WE SERVE</a>
+                                <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                                <div class="mega-list js-sub-menu sub-menu">
+                                    <div class="mega-menu-container">
+                                        <div class="mega-menu-column">
+                                            <ul class="mega-menu">
+                                                <li><a href="#">Location A</a></li>
+                                                <li><a href="#">Location B</a></li>
+                                                <li><a href="#">Location C</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="mega-menu-a">
-                                                <div class="city-name-list">
-                                                    <a class="dropdown-item" href="#">Location 1A</a>
-                                                    <a class="dropdown-item" href="#">Location 1B</a>
-                                                    <a class="dropdown-item" href="#">Location 1C</a>
-                                                </div>
-                                            </div>
+                                        <div class="mega-menu-column">
+                                            <ul class="mega-menu">
+                                                <li><a href="#">Location D</a></li>
+                                                <li><a href="#">Location E</a></li>
+                                                <li><a href="#">Location F</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="mega-menu-a">
-                                                <div class="city-name-list">
-                                                    <a class="dropdown-item" href="#">Location 1A</a>
-                                                    <a class="dropdown-item" href="#">Location 1B</a>
-                                                    <a class="dropdown-item" href="#">Location 1C</a>
-                                                </div>
-                                            </div>
+                                        <div class="mega-menu-column">
+                                            <ul class="mega-menu">
+                                                <li><a href="#">Location D</a></li>
+                                                <li><a href="#">Location E</a></li>
+                                                <li><a href="#">Location F</a></li>
+                                            </ul>
                                         </div>
+                                        <!-- Add more columns if needed -->
                                     </div>
                                 </div>
                             </li>
 
-
-                            <li class="nav-item d-block d-md-none">
-                                <div class="qoute-btn">
-                                    <a href="#">Request A Qoute</a>
-                                </div>
-                            </li>
+                            <li><a href="#">CONTACT US</a></li>
                         </ul>
-                        <!-- <div class="qoute-btn d-none d-md-block">
-                            <a href="#">Request A Qoute</a>
-                        </div> -->
                     </div>
-                    <a class="navbar-brand d-block d-md-none" href="index.php">
-                        <img src="assets/img/johnsonslogo.jpg" alt="logo">
-                    </a>
                 </div>
             </nav>
         </div>
         <div class="quote-navbar d-block d-md-none">
             <div class="container-fuild">
                 <div class="box-nav-flx">
-                    <div class="qoute-btn bounce_wrapper">
-                        <a href="#">Request A Qoute</a>
+                    <div class="quote-btn">
+                        <a href="#">Request A Quote</a>
                     </div>
-                    <div class="qoute-btn">
-                        <a href="#">Contact Us</a>
+                    <div class="quote-btn bounce_wrapper">
+                        <a href="tel:301-868-0320">Call Us:
+                            301-868-0320</a>
                     </div>
                 </div>
             </div>
         </div>
+
     </header>

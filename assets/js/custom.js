@@ -1,3 +1,36 @@
+document.addEventListener('DOMContentLoaded', function () {
+  // search-box open close js code
+  let navbar = document.querySelector(".navbar");
+  // sidebar open close js code
+  let navLinks = document.querySelector(".nav-links");
+  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+
+  menuOpenBtn.onclick = function () {
+    navLinks.style.left = "0";
+  }
+
+  menuCloseBtn.onclick = function () {
+    navLinks.style.left = "-100%";
+  }
+
+
+  let htmlcssArrows = document.querySelectorAll(".htmlcss-arrow");
+
+  htmlcssArrows.forEach(function(htmlcssArrow) {
+      htmlcssArrow.onclick = function () {
+          htmlcssArrow.classList.toggle("show1");
+      }
+  });
+ 
+  // sidebar submenu open close js code
+  let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+  htmlcssArrow.onclick = function () {
+    navLinks.classList.toggle("show1");
+  }
+});
+
+
 // Header carousel
 $(".header-carousel").owlCarousel({
   autoplay: true,
@@ -100,4 +133,11 @@ $(document).ready(function () {
     $("html, body").animate({ scrollTop: 0 }, 300);
     return false;
   });
+});
+
+// accordion js
+// Toggle Collapse
+$('.faq li .question').click(function () {
+  $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+  $(this).parent().toggleClass('active');
 });

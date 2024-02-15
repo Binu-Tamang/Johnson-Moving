@@ -1,4 +1,7 @@
 @media (min-width: 226px) and (max-width: 560px) {
+    nav .navbar {
+        justify-content: space-between;
+    }
     .resp-box{
         text-align: center;
     }
@@ -112,8 +115,22 @@
         padding: 0;
         margin: 0;
     }
+    header.main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 12;
+        right: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .container.f-con-nav {
+        max-width: 100%;
+    }
 }
 @media (min-width: 560px) and (max-width: 575px) {
+    nav .navbar {
+        justify-content: space-between;
+    }
     .resp-box{
         text-align: center;
     }
@@ -224,8 +241,22 @@
         padding: 0;
         margin: 0;
     }
+    header.main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 12;
+        right: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .container.f-con-nav {
+        max-width: 100%;
+    }
 }
 @media (min-width: 575px) and (max-width: 767px) {
+    nav .navbar {
+        justify-content: space-between;
+    }
     .resp-box{
         text-align: center;
     }
@@ -342,9 +373,23 @@
         padding: 0;
         margin: 0;
     }
+    header.main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 12;
+        right: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .container.f-con-nav {
+        max-width: 100%;
+    }
     
 }
 @media (min-width: 767px) and (max-width: 991px) {
+    nav .navbar {
+        justify-content: space-between;
+    }
     .resp-box{
         text-align: center;
     }
@@ -373,6 +418,17 @@
         padding: 0;
         margin: 0;
     }
+    .nav-up, .navbar-mid {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 12;
+        right: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .container.f-con-nav {
+        max-width: 100%;
+    }
 }
 @media (min-width: 992px) {
 }
@@ -380,6 +436,9 @@
 @media (max-width: 600px) {
 }
 @media (max-width: 35em) {
+    nav .navbar {
+        justify-content: space-between;
+    }
     li.nav-item {
         width: 50%;
     }
@@ -492,6 +551,17 @@
     .page-header {
         padding: 0;
         margin: 0;
+    }
+    header.main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 12;
+        right: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .container.f-con-nav {
+        max-width: 100%;
     }
 }
 

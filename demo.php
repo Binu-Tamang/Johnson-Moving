@@ -18,7 +18,7 @@
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
 
-    
+   
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php

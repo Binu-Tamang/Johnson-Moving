@@ -10,7 +10,7 @@
                 <div class="col-md-3">
                     <div class="footer-box">
                         <div class="footer-logo">
-                            <img src="assets/img/johnsonslogo.jpg" alt="footer logo">
+                            <img src="assets/img/logo.png" alt="footer logo">
                         </div>
                         <p>We are fully licensed and insured and maintain an exemplary record with our clients and the
                             Better Business Bureau.</p>
@@ -20,7 +20,7 @@
                     <div class="footer-box">
                         <h5 class="footer-h">Quicks Links</h5>
                         <ul class="imp-link">
-                            <li><a href="about-us.php"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Our Services</a></li>
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Area We Serve</a></li>
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact Us</a></li>
