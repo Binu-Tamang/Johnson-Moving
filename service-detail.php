@@ -102,32 +102,32 @@
                     <div class="services-details-menu">
                         <strong>Service Menu</strong>
                         <ul class="services-menu-list">
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i>
                                     Local Moves</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Long Distance
                                     Moves</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Offices Moves</a></li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Commercial
                                     Moves</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i>
                                     Assembly/Disassembly</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Packing/Equipment</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Packing And
                                     Unpacking</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Available Storage
                                     Facilities</a>
                             </li>

@@ -15,7 +15,10 @@ body {
 section {
   margin-top: 5rem;
 }
-
+ul {
+    padding: 0;
+    margin: 0;
+}
 p {
   color: #606060;
   /* font-family: "Heebo", sans-serif; */
@@ -508,6 +511,7 @@ section.main-serv {
 
 ul.serv-stro-list {
   padding: 0;
+  margin-right: 1.5rem;
 }
 
 ul.serv-stro-list li {
@@ -1343,28 +1347,6 @@ strong.typing-text.headlight-h {
 }
 
 /* ======about us page css starts============ */
-.abt-box-wrap {
-  padding: 3rem 0;
-}
-
-.abt-box-wrap.abt-box-1 {
-  background: #4d9784;
-}
-
-.abt-box-wrap.abt-box-1 strong,
-.abt-box-wrap.abt-box-2 strong,
-.abt-box-wrap.abt-box-1 p,
-.abt-box-wrap.abt-box-2 p {
-  color: #fff;
-}
-
-.abt-box-wrap.abt-box-2 {
-  background: linear-gradient(#212529ad, #5f646985),
-    url(../img/dont-hurt-your-back-l.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 .item.credit-img img {
   width: 160px;
   object-fit: cover;
@@ -1391,6 +1373,14 @@ section.credebtials_wrap {
 .serv-d-box-img {
   width: 100%;
   height: 100%;
+}
+.quote-h-form strong {
+  color: #fff;
+  padding-bottom: 1rem;
+  display: block;
+}
+.abt-us-context {
+  display: flex;
 }
 
 /* =============services page css strats================ */
@@ -1561,7 +1551,7 @@ nav .navbar .links li{
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding: 0 14px;
+  padding: 0 20px;
 }
 nav .navbar .links li a{
   height: 100%;
@@ -1570,6 +1560,7 @@ nav .navbar .links li a{
   color: #fff;
   font-size: 15px;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow{
@@ -1593,16 +1584,13 @@ nav .navbar .links li .sub-menu{
   line-height: 40px;
   background: #ffffff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 4px 4px;
+  /* border-radius: 0 0 4px 4px; */
   display: none;
   z-index: 2;
   padding: 0;
   margin-bottom: 5px;
   transition: 0.3s ease all;
-}
-nav .navbar .links li:hover .htmlCss-sub-menu,
-nav .navbar .links li:hover .js-sub-menu{
-  display: block;
+  border: 1px solid #fff;
 }
 .navbar .links li .sub-menu li{
   padding: 0 22px;
@@ -1612,6 +1600,7 @@ nav .navbar .links li:hover .js-sub-menu{
   color: #00273d;
   font-size: 15px;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 .navbar .links li .sub-menu .more-arrow{
   line-height: 40px;
@@ -1929,7 +1918,7 @@ ul.services-menu-list li i {
 }
 
 .faq li {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #6c757d;
   margin-bottom: 15px;
 }
 
@@ -1940,18 +1929,25 @@ ul.services-menu-list li i {
 }
 
 .faq li.active .question {
-  color: $fact-question-color-active; /* Assuming $fact-question-color-active is defined elsewhere */
+  color: #fff; /* Assuming $fact-question-color-active is defined elsewhere */
   transition: color 0.5s ease;
+  background: #499884;
+  padding-left: 10px;
 }
 
 .faq .answer {
-  color: $paragraph-color; /* Assuming $paragraph-color is defined elsewhere */
-  font-family: $font-serif-family; /* Assuming $font-serif-family is defined elsewhere */
-  font-size: 16px;
-  line-height: 24px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+   /* Assuming $paragraph-color is defined elsewhere */
+   /* Assuming $font-serif-family is defined elsewhere */
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+   color: #00273d;
+   /* font-family: "Heebo", sans-serif; */
+   font-size: 16px;
+   font-style: normal;
+   line-height: 27px;
+   letter-spacing: 1px;
+   margin: 0;
 }
 
 .faq .plus-minus-toggle {
@@ -1966,7 +1962,7 @@ ul.services-menu-list li i {
 
 .faq .plus-minus-toggle:before,
 .faq .plus-minus-toggle:after {
-  background: #000;
+  background: #00273d;
   content: '';
   height: 5px;
   left: 0;
@@ -1989,19 +1985,29 @@ ul.services-menu-list li i {
 }
 
 .faq .question {
-  color: $fact-question-color; /* Assuming $fact-question-color is defined elsewhere */
-  font-family: $font-sans-family; /* Assuming $font-sans-family is defined elsewhere */
-  font-size: 20px;
-  font-weight: 800;
+  color: #499884; /* Assuming $fact-question-color is defined elsewhere */
+   /* Assuming $font-sans-family is defined elsewhere */
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   position: relative;
   cursor: pointer;
   padding: 20px 0;
   transition: color 0.5s ease;
+  display: block;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (
+  max-width: 768px) {
     font-size: 18px;
   }
+;
+  letter-spacing: 1px;
+}
+.faqs-box-wrap {
+  /* background: #499884; */
+  padding: 1rem;
+  margin: 2rem 0;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.07);
 }
 .navbar-mid {
   background: #fff;
@@ -2055,4 +2061,124 @@ ul.mega-menu li a {
 
 ul.mega-menu li:hover {
   background: #4998847a;
+}
+/* .navbar ul.sub-menu li:hover a {
+  color: #fff;
+} */
+
+/ =====navbar menu listed effects /
+.btn-li {
+  cursor: pointer;
+  position: relative;
+  margin: 0px 6px;
+  / background: white; /
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+
+  &:after,
+  &:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+  }
+
+  &:after {
+    top: -1px;
+    left: -1px;
+    border-top: 2px solid #479c84;
+    border-left: 2px solid #479c84;
+    opacity: 0;
+  }
+
+  &:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 2px solid #479c84;
+    border-right: 2px solid #479c84;
+    opacity: 0;
+  }
+
+  &:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    &:before,
+    &:after {
+      width: 100%;
+      height: 100%;
+      color: #479c84;
+      opacity: 1;
+      / border-radius: 20px; /
+    }
+  }
+
+  &:hover a {
+    color: #479c84;
+  }
+}
+
+/* ========contact us page css starts=========== */
+.cnt-wrapper-d {
+  /* padding: 1rem; */
+  text-align: center;
+  display:block;
+  border-radius: 10px;
+  height: 100%;
+  margin: 0;
+}
+
+.cnt-wrapper-d i {
+  font-size: 30px;
+  display: block;
+  color: #00273d;
+  padding: 10px 0;
+}
+
+.cnt-wrapper-d strong {
+  display: block;
+  letter-spacing: 1px;
+}
+
+.cnt-wrapper-d a {
+  text-decoration: none;
+  color: #00273d;
+  letter-spacing: 1px;
+}
+
+.box-cnt-wrapper {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+
+
+.box-cnc-nc {
+  background: #499884;
+}
+
+.box-cnc-nc i, .box-cnc-nc strong, .box-cnc-nc a {
+  color: #fff;
+}
+.cnt-pg-map.c-map.g-view-contact iframe {
+  width: 100%;
+  /* height: 100%; */
+}
+.formfield.formfield-submit.cnct-btn button {
+  background: #4d9784;
+}
+
+.formfield.formfield-submit.cnct-btn {
+  margin: 0;
+  text-align: left;
+}
+section.cnt-page {
+  padding-bottom: 2rem;
+}
+.cnct-form {
+  padding-top: 1rem;
 }

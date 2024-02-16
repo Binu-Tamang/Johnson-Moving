@@ -1,33 +1,27 @@
-document.addEventListener('DOMContentLoaded', function () {
-  // search-box open close js code
-  let navbar = document.querySelector(".navbar");
-  // sidebar open close js code
-  let navLinks = document.querySelector(".nav-links");
-  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+let navbar = document.querySelector(".navbar");
 
-  menuOpenBtn.onclick = function () {
-    navLinks.style.left = "0";
-  }
-
-  menuCloseBtn.onclick = function () {
-    navLinks.style.left = "-100%";
-  }
+// sidebar open close js code
+let navLinks = document.querySelector(".nav-links");
+let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+menuOpenBtn.onclick = function() {
+navLinks.style.left = "0";
+}
+menuCloseBtn.onclick = function() {
+navLinks.style.left = "-100%";
+}
 
 
-  let htmlcssArrows = document.querySelectorAll(".htmlcss-arrow");
+// sidebar submenu open close js code
+let htmlcssArrows = document.querySelectorAll(".htmlcss-arrow");
 
-  htmlcssArrows.forEach(function(htmlcssArrow) {
-      htmlcssArrow.onclick = function () {
-          htmlcssArrow.classList.toggle("show1");
-      }
-  });
- 
-  // sidebar submenu open close js code
-  let htmlcssArrow = document.querySelector(".htmlcss-arrow");
-  htmlcssArrow.onclick = function () {
-    navLinks.classList.toggle("show1");
-  }
+htmlcssArrows.forEach(function(htmlcssArrow) {
+    htmlcssArrow.onclick = function () {
+        var parentLi = htmlcssArrow.closest('li');
+        if (parentLi) {
+          parentLi.classList.toggle('show1');
+        }
+    }
 });
 
 

@@ -86,63 +86,39 @@
                         <ul class="links">
                             <li><a href="index.php">HOME</a></li>
                             <li>
-                                <a href="#">ABOUT US</a>
+                                <a href="about-us.php">ABOUT US</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
                                 <ul class="htmlCss-sub-menu sub-menu">
-                                    <li><a href="#">Why Choose Us</a></li>
-                                    <li><a href="#">FAQs</a></li>
+                                    <li class="drop-d"><a href="#">Why Choose Us</a></li>
+                                    <li class="drop-d"><a href="faqs.php">FAQs</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="services.php">OUR SERVICES</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-                                <ul class="js-sub-menu sub-menu">
-                                    <li><a href="#">Moving</a></li>
-                                    <li><a href="#">Storage</a></li>
-                                    <li class="more">
-                                        <span><a href="#">More</a>
-                                            <i class='bx bxs-chevron-right arrow more-arrow'></i>
-                                        </span>
-                                        <ul class="more-sub-menu sub-menu">
-                                            <li><a href="#">Packing</a></li>
-                                            <li><a href="#">Crafting</a></li>
-                                            <li><a href="#">Shipping</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                    <ul class="htmlCss-sub-menu sub-menu">
+                                        <li class="drop-d"><a href="service-detail.php">Moving</a></li>
+                                        <li class="drop-d"><a href="service-detail.php">Storage</a></li>
+                                        <li class="drop-d"><a href="service-detail.php">Packing</a></li>
+                                        <li class="drop-d"><a href="service-detail.php">Crafting</a></li>
+                                        <li class="drop-d"><a href="service-detail.php">Shipping</a></li>
+                                        <li class="drop-d"><a href="service-detail.php">Office Moves</a></li>
+                                    </ul>
                             </li>
                             <li>
                                 <a href="#">AREA WE SERVE</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
-                                <div class="mega-list js-sub-menu sub-menu">
-                                    <div class="mega-menu-container">
-                                        <div class="mega-menu-column">
-                                            <ul class="mega-menu">
-                                                <li><a href="#">Location A</a></li>
-                                                <li><a href="#">Location B</a></li>
-                                                <li><a href="#">Location C</a></li>
+                                            <ul class="htmlCss-sub-menu sub-menu">
+                                                <li class="drop-d"><a href="#">Location A</a></li>
+                                                <li class="drop-d"><a href="#">Location B</a></li>
+                                                <li class="drop-d"><a href="#">Location C</a></li>
+                                                <li class="drop-d"><a href="#">Location D</a></li>
+                                                <li class="drop-d"><a href="#">Location E</a></li>
+                                                <li class="drop-d"><a href="#">Location F</a></li>
                                             </ul>
-                                        </div>
-                                        <div class="mega-menu-column">
-                                            <ul class="mega-menu">
-                                                <li><a href="#">Location D</a></li>
-                                                <li><a href="#">Location E</a></li>
-                                                <li><a href="#">Location F</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-menu-column">
-                                            <ul class="mega-menu">
-                                                <li><a href="#">Location D</a></li>
-                                                <li><a href="#">Location E</a></li>
-                                                <li><a href="#">Location F</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- Add more columns if needed -->
-                                    </div>
-                                </div>
                             </li>
 
-                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="contact-us.php">CONTACT US</a></li>
                         </ul>
                     </div>
                 </div>

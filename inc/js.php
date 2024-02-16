@@ -17,6 +17,7 @@
 <!-- Owl js -->
 <script defer src="assets/js/owl.carousel.min.js"></script>
 <script defer src="assets/js/wow.min.js"></script>
+<script defer src="assets/js/megamenu.js"></script>
 
 <script defer src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
 

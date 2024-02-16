@@ -30,9 +30,11 @@
                     <div class="p-3 banner-header" style="max-width: 900px;">
                         <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
                             Movers</span>
-                        <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Get a Free <br> Moving Services Quote</strong>
+                        <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Get a Free
+                            <br> Moving Services Quote</strong>
                         <div class="banner-slider-btn">
-                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request A Quote</a>
+                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request A
+                                Quote</a>
                             <a href="#" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact
                                 Us</a>
                         </div>
@@ -231,8 +233,8 @@
 <!-- ========affordable moving and storage======== -->
 <section class="afd-mov-stg">
     <div class="container">
-        <h4 class="web-header wow slideInDown" data-wow-duration="1s">Affordable Moving and
-            Storage Services in MD, VA, and the Washington D.C. Region</h4>
+        <h4 class="web-header wow slideInDown" data-wow-duration="1s">Budget-Friendly Moving & Storage in MD, VA, and DC
+        </h4>
         <div class="span-line">
             <span class="web-line"></span>
         </div>
@@ -245,49 +247,24 @@
                     <div class="adf-img">
                         <img src="assets/img/moving-truck-md-logo.jpg" alt="truck">
                     </div>
-
                 </div>
 
                 <div class="col-12 col-sm-6 col-md-6 wow slideInRight width-wrap" data-wow-duration="1s">
-                    <div class="storage-list">
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-6">
-                                <ul class="serv-stro-list">
-                                    <li><i class="fa-solid fa-arrow-right"></i> Complete Packing Services</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Residential / Commercial</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Home / Apartment</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Organ & Piano Moving</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> On Time Pick-up & Delivery</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Affordable Storage</li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-6">
-                                <ul class="serv-stro-list">
-                                    <li><i class="fa-solid fa-arrow-right"></i> Easily Accessible</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Reasonable Rates</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Local & Long Distance</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> International Shipping</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Short Notice Moves</li>
-                                    <li><i class="fa-solid fa-arrow-right"></i> Flat Rate or Hourly</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <p>We are fully licensed and insured and maintain an exemplary record with our clients and the
+                        Better Business Bureau. The owner, Curtis Johnson, maintains a commitment to hire the very
+                        best
+                        and provide exceptional service in terms of care, efficiency, and courtesy. Curtis explains:
+                        “We
+                        draw heavily upon our resources within the area’s college athletic community. We have
+                        assembled
+                        a professional work force whose renowned size and strength are complemented by our standards
+                        of
+                        skill, intellect, and integrity.”</p>
+                    <div class="web-btn text-start">
+                        <a href="#">View More</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <p>We are fully licensed and insured and maintain an exemplary record with our clients and the
-            Better Business Bureau. The owner, Curtis Johnson, maintains a commitment to hire the very
-            best
-            and provide exceptional service in terms of care, efficiency, and courtesy. Curtis explains:
-            “We
-            draw heavily upon our resources within the area’s college athletic community. We have
-            assembled
-            a professional work force whose renowned size and strength are complemented by our standards
-            of
-            skill, intellect, and integrity.”</p>
-        <div class="web-btn text-center">
-            <a href="#">View More</a>
         </div>
     </div>
 </section>
@@ -372,53 +349,52 @@
 
 <!-- ===========cartoon and Packing====== -->
 <section class="cartoon-pck">
-        <div class="container">
-            <h4 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">JohnSon Cartons And Packing
-                Materials</h4>
-            <div class="span-line">
-                <span class="web-line"></span>
-            </div>
-            <p>Johnson’s offers local or long distance moving, planned in advance or on short notice. We have reasonable
-                hourly rates and we’re certain you will find them affordable. <br> <br> We also have boxes, wardrobes and packing material available for you. Our professional drivers and
-                movers always use the white glove approach in the handling of your valuables. We provide free estimates
-                and gladly accept MasterCard, Visa, Discover and American Express. Please ask about our Senior Citizen
-                coupon and other cash discounts.
-            </p>
+    <div class="container">
+        <h4 class="web-header wow slideInDown" data-wow-offset="2" data-wow-duration="2s">JohnSon Cartons And Packing
+            Materials</h4>
+        <div class="span-line">
+            <span class="web-line"></span>
+        </div>
+        <p>Johnson’s offers local or long distance moving, planned in advance or on short notice. We have reasonable
+            hourly rates and we’re certain you will find them affordable. <br> <br> We also have boxes, wardrobes and
+            packing material available for you. Our professional drivers and
+            movers always use the white glove approach in the handling of your valuables. We provide free estimates
+            and gladly accept MasterCard, Visa, Discover and American Express. Please ask about our Senior Citizen
+            coupon and other cash discounts.
+        </p>
 
-            <div class="materials-model">
-                <!-- Button trigger modal -->
-                <button type="button"
-                    class="btn-modal btn btn-primary web-btn text-center wow pulse animated text-center"
-                    data-bs-toggle="modal" data-bs-target="#exampleModal" data-wow-delay="300ms"
-                    data-wow-iteration="infinite" data-wow-duration="2s"
-                    style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
-                    Cartons & Packing Materials
-                </button>
+        <div class="materials-model">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn-modal btn btn-primary web-btn text-center wow pulse animated text-center"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" data-wow-delay="300ms"
+                data-wow-iteration="infinite" data-wow-duration="2s"
+                style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
+                Cartons & Packing Materials
+            </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <strong class="modal-title fs-5" id="exampleModalLabel">JohnSon Cartons & Packing Materials
-                                </strong>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <strong class="modal-title fs-5" id="exampleModalLabel">JohnSon Cartons & Packing Materials
+                            </strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- testimonial plan -->
 <section class="testimonial-plan">

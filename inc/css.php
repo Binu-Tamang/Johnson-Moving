@@ -20,6 +20,7 @@
 
 <!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
 <link href='assets/css/sm-blue.css' rel='stylesheet' type='text/css' />
+<link href='assets/css/mega-menu.css' rel='stylesheet' type='text/css' />
 
 <!-- light box cdn css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
