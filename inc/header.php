@@ -100,13 +100,13 @@
                                         <li class="drop-d"><a href="service-detail.php">Moving</a></li>
                                         <li class="drop-d"><a href="service-detail.php">Storage</a></li>
                                         <li class="drop-d"><a href="service-detail.php">Packing</a></li>
-                                        <li class="drop-d"><a href="service-detail.php">Crafting</a></li>
+                                        <li class="drop-d"><a href="service-detail.php">Crating</a></li>
                                         <li class="drop-d"><a href="service-detail.php">Shipping</a></li>
                                         <li class="drop-d"><a href="service-detail.php">Office Moves</a></li>
                                     </ul>
                             </li>
                             <li>
-                                <a href="#">AREA WE SERVE</a>
+                                <a href="area-we-serve.php">AREA WE SERVE</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
                                             <ul class="htmlCss-sub-menu sub-menu">
                                                 <li class="drop-d"><a href="#">Location A</a></li>
