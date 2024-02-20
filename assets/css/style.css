@@ -25,8 +25,8 @@ p {
   /* font-family: "Heebo", sans-serif; */
   font-size: 16px;
   font-style: normal;
-  line-height: 27px;
-  letter-spacing: 1px;
+  line-height: 1.6;
+  /* letter-spacing: 1px; */
   margin: 0;
 }
 
@@ -126,12 +126,25 @@ ul.navbar-nav li a {
   color: #00273d;
 }
 
+nav.menu-list-header.fixed {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+}
+nav.menu-list-header.fixed li a, nav.menu-list-header.fixed .navbar .links li .arrow {
+  color: #00273d !important;
+}
+
+nav.menu-list-header.fixed ul.sub-menu {
+  border: 1px solid #00273d38 !important;
+}
 /* =====why choose us css part========== */
 section.why-web {
   text-align: center;
   margin: 0;
   padding: 5rem 0;
-  /* padding-bottom: 0; */
+  padding-bottom: 2.5rem;
 }
 
 .span-line {
@@ -487,7 +500,7 @@ section.main-serv .web-btn {
 }
 
 section.main-serv {
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
 }
 
 .serv-box.box-dash:hover::after {
@@ -511,8 +524,11 @@ section.main-serv {
 }
 
 ul.serv-stro-list {
+  flex-wrap: wrap;
   padding: 0;
   margin-right: 1.5rem;
+  /* width: 50%; */
+  display: flex;
 }
 
 ul.serv-stro-list li {
@@ -654,6 +670,8 @@ section.testimonial-plan h4 {
 /* ===map html========= */
 section.c-map.g-view-contact iframe {
   width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
 }
 
 /* =======footer css ============= */
@@ -854,9 +872,6 @@ ul.footer-social-links li i:hover {
   }
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-  color: #dddddd;
-}
 
 .owl-carousel-item img {
   width: 100%;
@@ -1274,7 +1289,7 @@ button.submit-form {
   margin-top: 2rem;
 }
 section.home-quote {
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
 }
 
 .bounce_wrapper {
@@ -1999,7 +2014,7 @@ ul.services-menu-list li i {
 
   @media screen and (
   max-width: 768px) {
-    font-size: 18px;
+    font-size: 15px;
   }
 ;
   letter-spacing: 1px;
@@ -2200,13 +2215,106 @@ ul.area-details li a {
 
 .area-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   /* padding-top: 1rem; */
 }
 .area-map iframe {
   width: 100%;
   padding-bottom: 2rem;
+  margin-top: 2rem;
 }
 .area-box-wrap {
   padding-top: 1rem;
+}
+ul.area-details li {
+  width: 50%;
+}
+section.area-serve {
+  padding-bottom: 2rem;
+}
+section.c-map.g-view-contact {
+  padding-bottom: 2rem;
+}
+
+
+/* =====keyword css starts ============ */
+section.key-box a {
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+section.key-box a:hover {
+  color: #222;
+}
+section.key-box {
+  padding-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+/* ========get a quote css starts=========== */
+.row.formrow h3 {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #499884;
+  color: #ffffff;
+  margin: 15px 0px;
+  padding: 10px 15px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.quotes-form {
+  background: #fff;
+  max-width: 767px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.q-header {
+  margin-bottom: 1rem;
+}
+.row.formrow.form-submit-clear button {
+  background: #499884;
+  border: 1px solid #499884;
+}
+
+.row.formrow.form-submit-clear button:hover {
+  background: transparent;
+  color: #00273d;
+  border: 1px solid #499884;
+}
+section.getaqoutes {
+  padding-bottom: 3rem;
+}
+/* Style for the container */
+.col-12 {
+  margin-bottom: 15px; 
+}
+
+/* Style for the label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style for the radio button options */
+div input[type="radio"] {
+  margin-right: 5px; 
+}
+
+/* Optional: Style for the radio button labels */
+div label {
+  display: inline-block;
+  margin-right: 15px; 
+}
+
+/* Optional: Style for the selected radio button label */
+div label.selected {
+  font-weight: bold;
+}
+label {
+  text-align: left;
+  width: 100%;
 }

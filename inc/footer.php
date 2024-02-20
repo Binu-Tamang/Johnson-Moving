@@ -20,12 +20,12 @@
                     <div class="footer-box">
                         <h5 class="footer-h">Quicks Links</h5>
                         <ul class="imp-link">
-                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
-                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Our Services</a></li>
-                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Area We Serve</a></li>
-                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact Us</a></li>
+                            <li><a href="about-us.php"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
+                            <li><a href="services.php"><i class="fa-solid fa-caret-right"></i> Our Services</a></li>
+                            <li><a href="area-we-serve.php"><i class="fa-solid fa-caret-right"></i> Area We Serve</a></li>
+                            <li><a href="contact-us.php"><i class="fa-solid fa-caret-right"></i> Contact Us</a></li>
                             <li><a href="#"><i class="fa-solid fa-caret-right"></i> Blogs</a></li>
-                            <li><a href="#"><i class="fa-solid fa-caret-right"></i> FAQs</a></li>
+                            <li><a href="faqs.php"><i class="fa-solid fa-caret-right"></i> FAQs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,7 +51,6 @@
                             <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
                         </ul>
                         <div class="footer-newletter">
                             <input type="text" placeholder="Email address" name="mail" required>

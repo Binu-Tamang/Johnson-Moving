@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="area-serve-location">
-                    <h2 class="web-header text-start" data-wow-duration="1s">Area We Serve</h2>
+                    <h2 class="web-header text-start" data-wow-duration="1s">Explore Nearby Storage Units with JohnSon Moving & Storage</h2>
                     <div class="span-line justify-content-start">
                         <span class="web-line text-start"></span>
                     </div>
@@ -27,36 +27,51 @@
                         <strong class="d-block">Area We Serve</strong>
                         <div class="area-box">
                             <ul class="area-details serv-stro-list">
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Washington, D.C.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Arlington, Virginia</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Alexandria, Virginia.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Frederick, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Gaithersburg, Maryland.</a>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Washington, D.C.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Arlington, Virginia</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexandria, Virginia.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Frederick, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Gaithersburg, Maryland.</a>
                                 </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Rockville, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Bethesda, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Silver Spring, Maryland.</a>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Rockville, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bethesda, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Silver Spring, Maryland.</a>
                                 </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Alexander City</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Bessemer</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Anniston</a></li>
-                            </ul>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexander City</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bessemer</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Anniston</a></li>
 
-                            <ul class="area-details serv-stro-list">
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Washington, D.C.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Arlington, Virginia</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Alexandria, Virginia.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Frederick, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Gaithersburg, Maryland.</a>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Washington, D.C.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Arlington, Virginia</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexandria, Virginia.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Frederick, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Gaithersburg, Maryland.</a>
                                 </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Rockville, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Bethesda, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Silver Spring, Maryland.</a>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Rockville, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bethesda, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Silver Spring, Maryland.</a>
                                 </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Alexander City</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Bessemer</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="#">Anniston</a></li>
-                            </ul>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexander City</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bessemer</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Anniston</a></li>
+
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Rockville, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bethesda, Maryland.</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Silver Spring, Maryland.</a>
+                                </li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexander City</a></li>
+                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bessemer</a></li>
+                        </div>
+                    </div>
+                    <div class="abt-box-wrap abt-box-3">
+                        <div class="abt-us-title my-4">
+                            <strong>Our Services :</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, temporibus! Provident,
+                                consequatur exercitationem molestias nam ea excepturi in non nemo! Distinctio
+                                accusantium voluptate dolorum, repudiandae pariatur commodi assumenda rerum ad. </p>
+                            <div class="web-btn">
+                                <a href="#"> More Services</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,28 +79,39 @@
 
             <div class="col-lg-4 gy-3 d-lg-block">
                 <div class="container">
-                    <div class="services-details-menu">
-                        <strong>Choose Your Location</strong>
-                        <ul class="services-menu-list">
-                            <li><a aria-label="about the services we provided" href="area-detail.php"><i
-                                        class="fa-solid fa-location-dot"></i>Washington D.C.</a>
-                            </li>
-                            <li><a aria-label="about the areas we provided" href="area-detail.php"><i
-                                        class="fa-solid fa-location-dot"></i> Maryland
-                                </a>
-                            </li>
-                            <li><a aria-label="about the areas we provided" href="area-detail.php"><i
-                                        class="fa-solid fa-location-dot"></i> Virginia</a></li>
-                            <li><a aria-label="about the areas we provided" href="area-detail.php"><i
-                                        class="fa-solid fa-location-dot"></i> Georgia
-                                </a>
-                            </li>
-                            <li> <a href="#"> <i class="fa-solid fa-location-dot"></i> Bethesda, Maryland.</a></li>
-                            <li> <a href="#"> <i class="fa-solid fa-location-dot"></i> Silver Spring, Maryland.</a></li>
-                            <li> <a href="#"> <i class="fa-solid fa-location-dot"></i> Alexander City</a></li>
-                            <li> <a href="#"> <i class="fa-solid fa-location-dot"></i> Bessemer</a></li>
-                            <li> <a href="#"> <i class="fa-solid fa-location-dot"></i> Anniston</a></li>
-                        </ul>
+                    <div class="quote-h-form wow slideInRight">
+                    <form action="#" method="POST" class="estimatehp-form wow pulse">
+                            <div class="form_wrap">
+                                <div class="formfield">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" name="first_name" placeholder="First Name">
+                                </div>
+                                <div class="formfield">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" name="last_name" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="form_wrap">
+                                <div class="formfield">
+                                    <i class="fa fa-envelope"></i>
+                                    <input type="email" name="email_address" placeholder="Your Email Address">
+                                </div>
+                                <div class="formfield">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="tel" name="phone_number" placeholder="Your Phone Number">
+                                </div>
+                            </div>
+                            <div class="form_wrap">
+                                <!-- Add the date field here -->
+                                <div class="formfield">
+                                    <i class="fa fa-calendar"></i>
+                                    <input type="text" name="message_date" placeholder="Date">
+                                </div>
+                            </div>
+                            <div class="formfield formfield-submit">
+                                <button type="submit" class="submit-form">Submit Now</button>
+                            </div>
+                        </form>
                     </div>
 
                     <div class="area-map">

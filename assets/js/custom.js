@@ -11,6 +11,20 @@ menuCloseBtn.onclick = function() {
 navLinks.style.left = "-100%";
 }
 
+// navbar sticky
+$(document).ready(function(){
+  $(window).bind('scroll', function() {
+  var navHeight = $( window ).height() - 460;
+  console.log(navHeight);
+    if ($(window).scrollTop() > navHeight) {
+      console.log($( window ).height());
+      $('.menu-list-header').addClass('fixed');
+    }
+    else {
+      $('.menu-list-header').removeClass('fixed');
+    }
+ });
+});
 
 // sidebar submenu open close js code
 let htmlcssArrows = document.querySelectorAll(".htmlcss-arrow");

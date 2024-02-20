@@ -14,16 +14,14 @@ $page_name = $_GET['title'] ?? "Services";
 
 <section class="serv-detail-page">
     <div class="container">
-        <h3 class="web-header wow slideInDown start" data-wow-duration="1s">Local Moving Services
-        </h3>
-        <div class="span-line">
-            <span class="web-line"></span>
-        </div>
 
         <div class="row">
             <div class="col-lg-8 col-12">
+            <h2 class="web-header text-start" data-wow-duration="1s">Local Moving Services</h2>
+                    <div class="span-line justify-content-start">
+                        <span class="web-line text-start"></span>
+                    </div>
                 <div class="moving_level">
-                    <div class="container">
                         <img src="assets/img/moving-truck-md-logo.jpg" alt="truck">
                         <p>At Johnson Moving and Storage Company, we don’t just move households and offices, we move
                             lives. Our moving
@@ -38,7 +36,6 @@ $page_name = $_GET['title'] ?? "Services";
                             D.C. region. We hold a comprehensive range of resources, including an affordable storage
                             facility, to
                             complete any relocation job that works for your greater benefit.</p>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 gy-3 d-lg-block">
@@ -73,6 +70,11 @@ $page_name = $_GET['title'] ?? "Services";
                                     Facilities</a>
                             </li>
                         </ul>
+                    </div>
+
+                    <div class="quote-btn bounce_wrapper text-center">
+                        <a href="tel:301-868-0320">Call Us:
+                            301-868-0320</a>
                     </div>
                 </div>
             </div>

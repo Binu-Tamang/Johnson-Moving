@@ -10,13 +10,13 @@
                 <img class="w-100" src="assets/img/banner-1.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3 banner-header" style="max-width: 900px;">
-                        <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Moving &
-                            Storage</span>
+                        <!-- <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Moving &
+                            Storage</span> -->
                         <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Welcome
                             To <br> JohnSon
                             Moving And Storage</strong>
                         <div class="banner-slider-btn">
-                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get A Fee
+                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get A Fee
                                 Estimate</a>
                             <a href="tel:301-894-4215"
                                 class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Call
@@ -29,12 +29,12 @@
                 <img class="w-100" src="assets/img/banner-3.jpg" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3 banner-header" style="max-width: 900px;">
-                        <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
-                            Movers</span>
+                        <!-- <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
+                            Movers</span> -->
                         <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Get a Free
                             <br> Moving Services Quote</strong>
                         <div class="banner-slider-btn">
-                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request A
+                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request A
                                 Quote</a>
                             <a href="tel:301-868-0320"
                                 class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Call
@@ -86,7 +86,7 @@
                             <i class="fa-solid fa-boxes-packing"></i>
                         </div>
                         <div class="choose-details">
-                            <strong>Affordable storage </strong>
+                            <strong>Packing & Storage</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, repudiandae. </p>
                             <!-- <div class="choose-learn">
                                 <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
@@ -100,7 +100,7 @@
                             <i class="fa-solid fa-box-open"></i>
                         </div>
                         <div class="choose-details">
-                            <strong>Packing & Storage</strong>
+                            <strong>Affordable Rate </strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, repudiandae. </p>
                             <!-- <div class="choose-learn">
                                 <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
@@ -122,27 +122,33 @@
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 wow slideInLeft width-wrap" data-wow-duration="1s">
                 <div class="about-company-imd">
-                    <img class="abt-img-1" src="assets/img/johnson-movers-l.jpg" alt="company truck">
+                    <img class="abt-img-1" src="assets/img/label-your-boxes-l.jpg" alt="two men">
                     <!-- <div class="yr-exp">
                             <span>30+</span>
                             <p>Years Of Experience</p>
                         </div> -->
-                    <img class="abt-img-2" src="assets/img/label-your-boxes-l.jpg" alt="two men">
+                    <img class="abt-img-2" src="assets/img/truck-j.jpg" alt="company truck">
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 wow slideInRight width-wrap" data-wow-duration="1s">
                 <div class="about-company-details">
-                    <h2 class="web-headerDown slideInLeft" data-wow text-start>About Us</h2>
+                    <h2 class="web-headerDown slideInLeft" data-wow text-start>Serving DC MD VA</h2>
                     <div class="span-line">
                         <span class="web-line"></span>
                     </div>
                     <strong>We can handle all your moving needs, be it apartment, home, office or
                         commercial.</strong>
-                    <p>We’re the moving and storage experts! Whether you need a mover for your home, office,
-                        apartment, organ or piano, Johnson Moving and Storage is the company you can trust. We move
-                        with care and we service the entire Washington DC, Maryland and Virginia area. We specialize
-                        in local moves in Washington DC, Southern Maryland and Fairfax. Va. Let us put our 30 years
-                        of experience to work for you. We look forward to helping you make your move a success.</p>
+                    <p>We’re the moving and storage experts! Whether you need a mover for your home, office, apartment,
+                        organ or piano, Johnson Moving and Storage is the company you can trust. We move with care and
+                        we service the entire Washington DC, Maryland and Virginia area. We specialize in local moves in
+                        Washington DC, Southern Maryland and Fairfax. Va. Let us put our 30 years of experience to work
+                        for you. We look forward to helping you make your move a success. <br><br> So when you are in
+                        need
+                        of a Washington DC mover, Maryland mover or a Virginia mover, call us for a free estimate. We
+                        specialize in residential and commercial moves, large and small. Johnson’s Moving and Storage
+                        can expertly move offices, laboratories, warehouses, plants, schools museums, libraries,
+                        hospitals, stores, furniture, fixtures, equipment, computers, machines, fine arts, stock,
+                        inventory, delicate instruments and more.</p>
                     <div class="web-btn">
                         <a href="#">Read More</a>
                     </div>
@@ -219,11 +225,11 @@
                                     <input type="tel" name="phone_number" placeholder="Your Phone Number">
                                 </div>
                             </div>
-                            <!-- Removed the date field and added a message field -->
                             <div class="form_wrap">
+                                <!-- Add the date field here -->
                                 <div class="formfield">
-                                    <i class="fa fa-comment"></i>
-                                    <textarea name="user_message" placeholder="Your Message" rows="4"></textarea>
+                                    <i class="fa fa-calendar"></i>
+                                    <input type="text" name="message_date" placeholder="Date">
                                 </div>
                             </div>
                             <div class="formfield formfield-submit">
@@ -232,6 +238,9 @@
                         </form>
                     </div>
                 </div>
+                <strong>We also move Junk.
+                    Call us: <a href="tel:301-868-0320"> 301-868-0320</a> if you are in need of junk removal in the
+                    Washington DC Metro Area.</strong>
             </div>
         </div>
     </div>
@@ -245,33 +254,40 @@
         <div class="span-line">
             <span class="web-line"></span>
         </div>
-        <p>You can also rely on Johnson Moving & Storage when it comes to the safekeeping of your prized
-            possessions. Our storage facility in the Washington D.C. region features containerized vaults that are
-            dust, moisture-free, imperious to insect or rodent damage, and even pilfering.</p>
+        <p>Johnson Moving and Storage handles office relocations with ease and our satisfied clients are proof of our
+            outstanding service. Johnson Moving and Storage is an authorized agent for Affiliated Van Lines. We’re
+            members of American Moving and Storage Association, the D.C. Chamber of Commerce, D.C. and MD Better
+            Business Bureaus, the Registered Mover of Maryland Incorporated and more.</p>
         <div class="afd-mov-details">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 wow slideInLeft width-wrap" data-wow-duration="1s">
                     <div class="adf-img">
-                        <img src="assets/img/moving-truck-md-logo.jpg" alt="truck">
+                        <img src="assets/img/johnson-movers-l.jpg" alt="truck">
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-md-6 wow slideInRight width-wrap" data-wow-duration="1s">
                     <p>We are fully licensed and insured and maintain an exemplary record with our clients and the
-                        Better Business Bureau. The owner, Curtis Johnson, maintains a commitment to hire the very
-                        best
-                        and provide exceptional service in terms of care, efficiency, and courtesy. Curtis explains:
-                        “We
-                        draw heavily upon our resources within the area’s college athletic community. We have
-                        assembled
-                        a professional work force whose renowned size and strength are complemented by our standards
-                        of
-                        skill, intellect, and integrity.”</p>
-                    <div class="web-btn text-start">
-                        <a href="#">View More</a>
-                    </div>
+                        Better Business Bureau. The owner, Curtis Johnson, maintains a commitment to hire the very best
+                        and provide exceptional service in terms of care, efficiency, and courtesy. Curtis explains: “We
+                        draw heavily upon our resources within the area’s college athletic community. We have assembled
+                        a professional work force whose renowned size and strength are complemented by our standards of
+                        skill, intellect, and integrity.” <br> <br>“Our passion is simple: we love what we do. Our goal
+                        is to make every customer a customer for life.” <br><br> Johnson’s offers local or long distance
+                        moving, planned in advance or on short notice. We have reasonable hourly rates and we’re certain
+                        you will find them affordable.</p>
+
                 </div>
             </div>
+        </div>
+        <p> <strong>Our experienced employees will insure a
+                smooth, well-coordinated move.</strong> <br>We also have boxes, wardrobes and packing material available
+            for you. Our professional drivers and movers
+            always use the white glove approach in the handling of your valuables. We provide free estimates and gladly
+            accept MasterCard, Visa, Discover and American Express. Please ask about our Senior Citizen coupon and other
+            cash discounts.</p>
+        <div class="web-btn text-center">
+            <a href="#">View More</a>
         </div>
     </div>
 </section>
@@ -538,9 +554,15 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- <div class="web-btn">
-                        <a href="#"> More FAQs</a>
-                    </div> -->
+                    <div class="box-nav-flx py-3">
+                        <div class="quote-btn">
+                            <a href="quote.php">Request A Quote</a>
+                        </div>
+                        <div class="quote-btn">
+                            <a href="tel:301-868-0320">Call Us:
+                                301-868-0320</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -549,7 +571,25 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <p>At <span class="grn-text">JohnSon Moving & Storage</span>, we understand that the decision hiring movers
+                raises questions. For your peace of mind
+                and a seamless moving experience, we've addressed common queries <strong><a
+                        href="faqs.php">HERE</a></strong>. Explore these answers to make
+                informed decisions and confidently embark on your move with us.</p>
         </div>
+    </div>
+</section>
+
+<!-- ===keyword========== -->
+<section class="key-box">
+    <div class="container">
+        <!-- <strong>Popular Search</strong> -->
+        <p><a href="#">Prince Georges County</a> | <a href="#">Local Maryland</a> | <a href="#">Md Moving company - Johnson Moving and Storage – Clinton MD moving and
+            storage experts for home</a>  | <a href="#"> office</a> | <a href="#"> business</a> | <a href="#"> apartments </a> | <a href="#"> organs or pianos</a> | <a href="#"> fragile furniture </a> | <a href="#"> pictures</a> | <a href="#">
+            musical instruments. Large or small jobs welcome. Northern VA</a> | <a href="#"> Local</a> | <a href="#"> National Worldwide Moving Company -
+            Best</a> | <a href="#"> top</a> | <a href="#"> local </a> | <a href="#"> good</a> | <a href="#"> Clinton</a> | <a href="#"> MD</a> | <a href="#"> Largo</a> | <a href="#"> Mitchellville</a> | <a href="#"> Landover</a> | <a href="#"> Bowie</a> | <a href="#"> Upper Marlboro</a> | <a href="#"> Waldorf</a> | <a href="#"> Oxon
+            Hill</a> | <a href="#"> Temple Hills</a> | <a href="#"> Capital Heights</a> | <a href="#"> Ft. Washington</a> | <a href="#"> Washington DC</a> | <a href="#"> Virginia</a> | <a href="#"> Maryland. Prince Georges
+            County</a> | <a href="#"> Maryland</a> | <a href="#"> Delaware</a> | <a href="#"> Montgomery County</a> | <a href="#"> St. Charles County.</a></p>
     </div>
 </section>
 <!-- ---------------------------footer starts--------------------- -->

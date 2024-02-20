@@ -34,7 +34,6 @@
                                 <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +59,7 @@
                                                 301-894-4215</a></li>
                                     </ul>
                                     <div class="quote-btn d-none d-md-block">
-                                        <a href="#">Request A Quote</a>
+                                        <a href="quote.php">Request A Quote</a>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +69,7 @@
             </div>
         </div>
         <div class="nav-list">
-            <nav class="menu-list-header">
+            <nav class="menu-list-header" id="navbar">
                 <div class="navbar">
                     <div class="logo navbar-brand d-block d-md-none"><a href="index.php">
                             <img src="assets/img/logo.png" alt="logo">
@@ -87,11 +86,6 @@
                             <li><a href="index.php">HOME</a></li>
                             <li>
                                 <a href="about-us.php">ABOUT US</a>
-                                <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
-                                <ul class="htmlCss-sub-menu sub-menu">
-                                    <li class="drop-d"><a href="#">Why Choose Us</a></li>
-                                    <li class="drop-d"><a href="faqs.php">FAQs</a></li>
-                                </ul>
                             </li>
                             <li>
                                 <a href="services.php">OUR SERVICES</a>
@@ -109,12 +103,12 @@
                                 <a href="area-we-serve.php">AREA WE SERVE</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
                                             <ul class="htmlCss-sub-menu sub-menu">
-                                                <li class="drop-d"><a href="#">Location A</a></li>
-                                                <li class="drop-d"><a href="#">Location B</a></li>
-                                                <li class="drop-d"><a href="#">Location C</a></li>
-                                                <li class="drop-d"><a href="#">Location D</a></li>
-                                                <li class="drop-d"><a href="#">Location E</a></li>
-                                                <li class="drop-d"><a href="#">Location F</a></li>
+                                                <li class="drop-d"><a href="area-we-serve-details.php">Location A</a></li>
+                                                <li class="drop-d"><a href="area-we-serve-details.php">Location B</a></li>
+                                                <li class="drop-d"><a href="area-we-serve-details.php">Location C</a></li>
+                                                <li class="drop-d"><a href="area-we-serve-details.php">Location D</a></li>
+                                                <li class="drop-d"><a href="area-we-serve-details.php">Location E</a></li>
+                                                <li class="drop-d"><a href="area-we-serve-details.php">Location F</a></li>
                                             </ul>
                             </li>
 
@@ -128,7 +122,7 @@
             <div class="container-fuild">
                 <div class="box-nav-flx">
                     <div class="quote-btn">
-                        <a href="#">Request A Quote</a>
+                        <a href="quote.php">Request A Quote</a>
                     </div>
                     <div class="quote-btn bounce_wrapper">
                         <a href="tel:301-868-0320">Call Us:

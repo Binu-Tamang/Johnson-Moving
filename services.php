@@ -39,7 +39,7 @@
 <!-- services section html============ -->
 <section class="main-serv">
     <div class="container">
-        <h3 class="web-header wow slideInDown" data-wow-duration="1s">Service We Provided</h3>
+        <h3 class="web-header wow slideInDown" data-wow-duration="1s">Services We Provide</h3>
         <div class="span-line">
             <span class="web-line"></span>
         </div>

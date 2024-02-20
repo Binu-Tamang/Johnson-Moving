@@ -43,39 +43,38 @@
             </div>
             <div class="col-md-4">
                 <div class="quote-h-form wow slideInRight">
-                    <form action="#" method="POST" class="estimatehp-form wow pulse bounce_wrapper">
-                        <strong>Get A Free Estimate</strong>
-                        <div class="form_wrap">
-                            <div class="formfield">
-                                <i class="fa fa-user"></i>
-                                <input type="text" name="first_name" placeholder="First Name">
+                <form action="#" method="POST" class="estimatehp-form wow pulse">
+                            <div class="form_wrap">
+                                <div class="formfield">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" name="first_name" placeholder="First Name">
+                                </div>
+                                <div class="formfield">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" name="last_name" placeholder="Last Name">
+                                </div>
                             </div>
-                            <div class="formfield">
-                                <i class="fa fa-user"></i>
-                                <input type="text" name="last_name" placeholder="Last Name">
+                            <div class="form_wrap">
+                                <div class="formfield">
+                                    <i class="fa fa-envelope"></i>
+                                    <input type="email" name="email_address" placeholder="Your Email Address">
+                                </div>
+                                <div class="formfield">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="tel" name="phone_number" placeholder="Your Phone Number">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form_wrap">
-                            <div class="formfield">
-                                <i class="fa fa-envelope"></i>
-                                <input type="email" name="email_address" placeholder="Your Email Address">
+                            <div class="form_wrap">
+                                <!-- Add the date field here -->
+                                <div class="formfield">
+                                    <i class="fa fa-calendar"></i>
+                                    <input type="text" name="message_date" placeholder="Date">
+                                </div>
                             </div>
-                            <div class="formfield">
-                                <i class="fa fa-phone"></i>
-                                <input type="tel" name="phone_number" placeholder="Your Phone Number">
+                            <div class="formfield formfield-submit">
+                                <button type="submit" class="submit-form">Submit Now</button>
                             </div>
-                        </div>
-                        <!-- Added a date field and modified the message field -->
-                        <div class="form_wrap">
-                            <div class="formfield">
-                                <i class="fa fa-calendar"></i>
-                                <input type="date" name="event_date" placeholder="Event Date">
-                            </div>
-                        </div>
-                        <div class="formfield formfield-submit">
-                            <button type="submit" class="submit-form">Submit Now</button>
-                        </div>
-                    </form>
+                        </form>
                 </div>
 
             </div>
