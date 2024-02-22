@@ -41,26 +41,7 @@
                                 <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bessemer</a></li>
                                 <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Anniston</a></li>
 
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Washington, D.C.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Arlington, Virginia</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexandria, Virginia.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Frederick, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Gaithersburg, Maryland.</a>
-                                </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Rockville, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bethesda, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Silver Spring, Maryland.</a>
-                                </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexander City</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bessemer</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Anniston</a></li>
-
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Rockville, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bethesda, Maryland.</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Silver Spring, Maryland.</a>
-                                </li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Alexander City</a></li>
-                                <li> <i class="fa-solid fa-location-dot"></i> <a href="area-we-serve-details.php">Bessemer</a></li>
+                               
                         </div>
                     </div>
                     <div class="abt-box-wrap abt-box-3">
@@ -70,7 +51,7 @@
                                 consequatur exercitationem molestias nam ea excepturi in non nemo! Distinctio
                                 accusantium voluptate dolorum, repudiandae pariatur commodi assumenda rerum ad. </p>
                             <div class="web-btn">
-                                <a href="#"> More Services</a>
+                                <a href="services.php"> More Services</a>
                             </div>
                         </div>
                     </div>
@@ -138,8 +119,8 @@ include('inc/footer.php');
 include('inc/js.php')
     ?>
 
-<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
-    if (navItems.length >= 3) {
-        navItems[2].classList.add("active");
+<script>const navItems = document.querySelectorAll('.nav-links ul.links  > li ');
+    if (navItems.length >= 4) {
+        navItems[3].classList.add("active");
     }
 </script>

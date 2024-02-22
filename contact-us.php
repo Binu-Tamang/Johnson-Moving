@@ -43,7 +43,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="cnt-pg-map c-map g-view-contact">
+                <div class="cnt-pg-map g-view-contact">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49707.15996501417!2d-77.01349585300933!3d38.86228091299519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b844c33cb89d%3A0xb6f40376814d4157!2sWashington%2C%20DC%2020020%2C%20USA!5e0!3m2!1sen!2snp!4v1706694168821!5m2!1sen!2snp"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -107,8 +107,8 @@ include('inc/footer.php');
 include('inc/js.php')
     ?>
 
-<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
-    if (navItems.length >= 3) {
-        navItems[2].classList.add("active");
+<script>const navItems = document.querySelectorAll('.nav-links ul.links  > li ');
+    if (navItems.length >= 5) {
+        navItems[4].classList.add("active");
     }
 </script>

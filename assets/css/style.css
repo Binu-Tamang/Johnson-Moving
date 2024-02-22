@@ -131,7 +131,11 @@ nav.menu-list-header.fixed {
   position: fixed;
   width: 100%;
   background: #fff;
+  color: #000;
 }
+
+
+
 nav.menu-list-header.fixed li a, nav.menu-list-header.fixed .navbar .links li .arrow {
   color: #00273d !important;
 }
@@ -478,9 +482,6 @@ img.abt-img-2 {
   color: #fff;
 }
 
-.serv-box.box-dash:hover::after {
-  /* background:aliceblue; */
-}
 
 .serv-topic {
   letter-spacing: 1px;
@@ -497,10 +498,6 @@ img.abt-img-2 {
 
 section.main-serv .web-btn {
   text-align: center;
-}
-
-section.main-serv {
-  /* padding-bottom: 1.5rem; */
 }
 
 .serv-box.box-dash:hover::after {
@@ -526,7 +523,6 @@ section.main-serv {
 ul.serv-stro-list {
   flex-wrap: wrap;
   padding: 0;
-  margin-right: 1.5rem;
   /* width: 50%; */
   display: flex;
 }
@@ -538,6 +534,7 @@ ul.serv-stro-list li {
   letter-spacing: 1px;
   font-weight: 600;
   display: flex;
+  width: 50%;
 }
 
 ul.serv-stro-list li i {
@@ -555,7 +552,30 @@ ul.serv-stro-list li i {
 .afd-mov-details {
   padding: 15px 0;
 }
+.p-div {
+  position: relative;
+}
 
+.abt-us-context.fly-ul {
+  position: absolute;
+  bottom: 0;
+  background: #4d9784;
+  left: -10px;
+  padding: 1rem;
+}
+
+.abt-us-context.fly-ul ul {
+  display: block;
+}
+
+.abt-us-context.fly-ul ul li {
+  color: #fff;
+  padding: 3px 0;
+}
+
+.abt-us-context.fly-ul ul li i {
+  color: #fff;
+}
 /* ========testimonial css========= */
 .review-wrap {
   background: #4d978454;
@@ -832,9 +852,6 @@ ul.footer-social-links li i:hover {
 
 /*** Header ***/
 @media (min-width: 992px) {
-  .header {
-    /* margin-top: -120px; */
-  }
 }
 
 .header-carousel .owl-nav {
@@ -1288,9 +1305,6 @@ button.submit-form {
   text-align: center;
   margin-top: 2rem;
 }
-section.home-quote {
-  /* padding-bottom: 3rem; */
-}
 
 .bounce_wrapper {
   visibility: visible;
@@ -1303,7 +1317,7 @@ section.home-quote {
 /* ===web banner css===== */
 .page-header {
   background: linear-gradient(#21252982, #5f64694f), url(../img/banner-3.jpg);
-  height: 500px;
+  height: 300px;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1315,7 +1329,7 @@ section.home-quote {
   display: flex;
   justify-content: center;
   align-items: center;
-  clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+  /* clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0); */
 }
 ol.breadcrumb.justify-content-center.text-uppercase a {
   color: #00273d;
@@ -1337,7 +1351,7 @@ ol.breadcrumb.justify-content-center.text-uppercase a {
   background: #ffffff94;
   /* border-radius: 15px; */
   margin: 0 5rem;
-  /* backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1568,6 +1582,7 @@ nav .navbar .links li{
   justify-content: space-between;
   list-style: none;
   padding: 0 20px;
+  margin-right: 4px;
 }
 nav .navbar .links li a{
   height: 100%;
@@ -1622,9 +1637,6 @@ nav .navbar .links li .sub-menu{
   line-height: 40px;
   color: #00273d;
 }
-.navbar .links li .htmlCss-more-sub-menu{
-  /* line-height: 40px; */
-}
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
   top: 0;
@@ -1660,9 +1672,6 @@ nav .navbar .links li .sub-menu{
   }
 }
 @media (max-width:800px){
-  nav{
-    /* position: relative; */
-  }
   .navbar .bx-menu{
     display: block;
   }
@@ -1940,7 +1949,7 @@ ul.services-menu-list li i {
 
 .faq li.active .answer {
   max-height: 275px !important;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
 
@@ -1961,8 +1970,8 @@ ul.services-menu-list li i {
    /* font-family: "Heebo", sans-serif; */
    font-size: 16px;
    font-style: normal;
-   line-height: 27px;
-   letter-spacing: 1px;
+   line-height: 1.6;
+   /* letter-spacing: 1px; */
    margin: 0;
 }
 
@@ -1999,16 +2008,44 @@ ul.services-menu-list li i {
 .faq .plus-minus-toggle.collapsed:before {
   transform: rotate(180deg);
 }
+.call-fly {
+  background: #4d9784;
+  position: absolute;
+  bottom: 1rem;
+  padding: 18px 14px;
+  left: 0;
+}
+.qtn-fly{
+  background: #4d9784;
+  position: absolute;
+  top: 1rem;
+  padding: 18px 14px;
+  right: 0;
+}
+.call-fly a, .qtn-fly a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #4d9784;
+  display: inline-block;
+}
 
+.call-fly i, .qtn-fly i {
+  color: #fff;
+  font-size: 17px;
+}
 .faq .question {
   color: #499884; /* Assuming $fact-question-color is defined elsewhere */
    /* Assuming $font-sans-family is defined elsewhere */
   font-size: 18px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   position: relative;
   cursor: pointer;
-  padding: 20px 0;
+  padding: 10px 0;
   transition: color 0.5s ease;
   display: block;
 
@@ -2025,6 +2062,17 @@ ul.services-menu-list li i {
   margin: 2rem 0;
   box-shadow: 0 6px 35px rgba(0, 0, 0, 0.07);
 }
+.fqas-img {
+  width: 100%;
+  height: 100%;
+}
+
+.fqas-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ==================== */
 .navbar-mid {
   background: #fff;
 }
@@ -2082,12 +2130,12 @@ ul.mega-menu li:hover {
   color: #fff;
 } */
 
-/ =====navbar menu listed effects /
+/* / =====navbar menu listed effects / */
 .btn-li {
   cursor: pointer;
   position: relative;
   margin: 0px 6px;
-  / background: white; /
+  background: white; 
   font-size: 28px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -2129,7 +2177,7 @@ ul.mega-menu li:hover {
       height: 100%;
       color: #479c84;
       opacity: 1;
-      / border-radius: 20px; /
+      border-radius: 20px; 
     }
   }
 
@@ -2201,7 +2249,7 @@ section.cnt-page {
 .moving_level img {
   width: 100%;
   object-fit: cover;
-  padding: 2rem 0;
+  padding-bottom: 1rem;
 }
 section.serv-detail-page {
   padding-bottom: 2rem;
@@ -2223,6 +2271,10 @@ ul.area-details li a {
   padding-bottom: 2rem;
   margin-top: 2rem;
 }
+.c-map iframe{
+  width: 100%;
+  height: 100%;
+}
 .area-box-wrap {
   padding-top: 1rem;
 }
@@ -2237,21 +2289,6 @@ section.c-map.g-view-contact {
 }
 
 
-/* =====keyword css starts ============ */
-section.key-box a {
-  color: #999;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-section.key-box a:hover {
-  color: #222;
-}
-section.key-box {
-  padding-bottom: 2rem;
-  margin-top: 1.5rem;
-}
 /* ========get a quote css starts=========== */
 .row.formrow h3 {
   font-size: 20px;
@@ -2316,5 +2353,69 @@ div label.selected {
 }
 label {
   text-align: left;
+  width: 100%;
+}
+.adf-img {
+  width: 100%;
+  height: 100%;
+}
+.area-serve-map iframe {
+  width: 100%;
+}
+/* ===area we serve slider css starts =========== */
+.item.credit-img.area-img img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+/* ====effects on navbar css starts=========== */
+/* General styling for menu items */
+.menu-list-header .nav-links ul.links li {
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover styles */
+.menu-list-header .nav-links ul.links li:hover {
+  background-color: #499884;
+}
+
+.menu-list-header .nav-links ul.links li:hover a.a-nav,
+nav.menu-list-header.fixed ul.links li:hover a.a-nav {
+  color: #fff !important;
+}
+
+/* Active styles */
+.menu-list-header .nav-links ul.links li:active,
+.menu-list-header .nav-links ul.links li.active {
+  background-color: #499884; 
+}
+
+
+/* Optional: Add an underline effect on hover and active */
+/* .menu-list-header .nav-links ul.links li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #00273d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.menu-list-header .nav-links ul.links li a:hover:after,
+.menu-list-header .nav-links ul.links li:active a:after,
+.menu-list-header .nav-links ul.links li.active a:after {
+  transform: scaleX(1);
+} */
+
+.abt-us-context.fly-ul ul li {
+  width: 100%;
+}
+
+iframe {
   width: 100%;
 }

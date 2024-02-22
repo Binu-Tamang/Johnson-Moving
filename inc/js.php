@@ -17,12 +17,8 @@
 <!-- Owl js -->
 <script defer src="assets/js/owl.carousel.min.js"></script>
 <script defer src="assets/js/wow.min.js"></script>
-<script defer src="assets/js/megamenu.js"></script>
 
 <script defer src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
-
-<!-- SmartMenus jQuery plugin -->
-<script src="assets/js/jquery.smartmenus.min.js" type="text/javascript"></script>
 
 <!-- js lightbox js CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>

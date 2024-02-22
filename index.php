@@ -7,7 +7,7 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="assets/img/banner-1.png" alt="Image">
+                <img  src="assets/img/banner-1.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3 banner-header" style="max-width: 900px;">
                         <!-- <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Moving &
@@ -16,7 +16,8 @@
                             To <br> JohnSon
                             Moving And Storage</strong>
                         <div class="banner-slider-btn">
-                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get A Fee
+                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i class="fa-solid fa-paper-plane"></i> Get A
+                             Fee
                                 Estimate</a>
                             <a href="tel:301-894-4215"
                                 class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Call
@@ -26,7 +27,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="assets/img/banner-3.jpg" alt="Image">
+                <img  src="assets/img/banner-3.jpg" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3 banner-header" style="max-width: 900px;">
                         <!-- <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
@@ -34,7 +35,8 @@
                         <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Get a Free
                             <br> Moving Services Quote</strong>
                         <div class="banner-slider-btn">
-                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Request A
+                            <a href="quote.php"
+                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i class="fa-solid fa-paper-plane"></i> Request A
                                 Quote</a>
                             <a href="tel:301-868-0320"
                                 class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Call
@@ -122,17 +124,17 @@
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 wow slideInLeft width-wrap" data-wow-duration="1s">
                 <div class="about-company-imd">
-                    <img class="abt-img-1" src="assets/img/label-your-boxes-l.jpg" alt="two men">
+                    <img loading="lazy" class="abt-img-1" src="assets/img/label-your-boxes-l.jpg" alt="two men">
                     <!-- <div class="yr-exp">
                             <span>30+</span>
                             <p>Years Of Experience</p>
                         </div> -->
-                    <img class="abt-img-2" src="assets/img/truck-j.jpg" alt="company truck">
+                    <img loading="lazy" class="abt-img-2" src="assets/img/truck-j.jpg" alt="company truck">
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 wow slideInRight width-wrap" data-wow-duration="1s">
                 <div class="about-company-details">
-                    <h2 class="web-headerDown slideInLeft" data-wow text-start>Serving DC MD VA</h2>
+                    <h2 class="web-headerDown slideInLeft" data-wow text-start>Serving DC MD VA </h2>
                     <div class="span-line">
                         <span class="web-line"></span>
                     </div>
@@ -199,7 +201,7 @@
                             <li><span>02</span> We receive your details</li>
                             <li><span>03</span> We email you back with the free estimate</li>
                         </ul>
-                        <img src="assets/img/moving-checklist.jpg" alt="list">
+                        <img loading="lazy" src="assets/img/moving-checklist.jpg" alt="list">
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 width-wrap">
@@ -233,7 +235,7 @@
                                 </div>
                             </div>
                             <div class="formfield formfield-submit">
-                                <button type="submit" class="submit-form">Submit Now</button>
+                                <button type="submit" class="submit-form"><i class="fa-solid fa-paper-plane"></i> Submit Now</button>
                             </div>
                         </form>
                     </div>
@@ -254,20 +256,42 @@
         <div class="span-line">
             <span class="web-line"></span>
         </div>
-        <p>Johnson Moving and Storage handles office relocations with ease and our satisfied clients are proof of our
-            outstanding service. Johnson Moving and Storage is an authorized agent for Affiliated Van Lines. We’re
-            members of American Moving and Storage Association, the D.C. Chamber of Commerce, D.C. and MD Better
-            Business Bureaus, the Registered Mover of Maryland Incorporated and more.</p>
         <div class="afd-mov-details">
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 wow slideInLeft width-wrap" data-wow-duration="1s">
+                <div class="col-12 col-sm-6 col-md-6 wow slideInLeft width-wrap p-div" data-wow-duration="1s">
                     <div class="adf-img">
-                        <img src="assets/img/johnson-movers-l.jpg" alt="truck">
+                        <img loading="lazy" src="assets/img/johnson-movers-l.jpg" alt="truck">
+                    </div>
+                    <!-- <div class="box-nav-flx py-3 btn-fly">
+                        <div class="quote-btn call-btn-fly">
+                            <a href="quote.php">Request A Quote</a>
+                        </div>
+                        <div class="quote-btn qtn-fly">
+                            <a href="tel:301-868-0320">Call Us:
+                                301-868-0320</a>
+                        </div>
+                    </div> -->
+                    <div class="abt-us-context fly-ul">
+                        <ul class="serv-stro-list">
+                            <li><i class="fa-solid fa-check"></i> Complete Packing Services</li>
+                            <li><i class="fa-solid fa-check"></i> Residential / Commercial</li>
+                            <li><i class="fa-solid fa-check"></i> Home / Apartment</li>
+                            <li><i class="fa-solid fa-check"></i> Organ & Piano Moving</li>
+                            <li><i class="fa-solid fa-check"></i> On Time Pick-up & Delivery</li>
+                            <li><i class="fa-solid fa-check"></i> Affordable Storage</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-md-6 wow slideInRight width-wrap" data-wow-duration="1s">
-                    <p>We are fully licensed and insured and maintain an exemplary record with our clients and the
+                    <p>Johnson Moving and Storage handles office relocations with ease and our satisfied clients are
+                        proof of our
+                        outstanding service. Johnson Moving and Storage is an authorized agent for Affiliated Van Lines.
+                        We’re
+                        members of American Moving and Storage Association, the D.C. Chamber of Commerce, D.C. and MD
+                        Better
+                        Business Bureaus, the Registered Mover of Maryland Incorporated and more. <br>We are fully
+                        licensed and insured and maintain an exemplary record with our clients and the
                         Better Business Bureau. The owner, Curtis Johnson, maintains a commitment to hire the very best
                         and provide exceptional service in terms of care, efficiency, and courtesy. Curtis explains: “We
                         draw heavily upon our resources within the area’s college athletic community. We have assembled
@@ -406,7 +430,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
+                            <img loading="lazy" src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -511,7 +535,7 @@
     </div>
 </section>
 
-<!--  map location -->
+<!--  FAQs html starts  -->
 <section class="c-map g-view-contact">
     <div class="container">
         <div class="row">
@@ -554,7 +578,15 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="box-nav-flx py-3">
+                    <div class="quote-btn">
+                        <a href="faqs.php"> More FAQs</a>
+                    </div>
+                    <!-- <p>At <span class="grn-text">JohnSon Moving & Storage</span>, we understand that the decision hiring movers
+                raises questions. For your peace of mind
+                and a seamless moving experience, we've addressed common queries <strong><a
+                        href="faqs.php">HERE</a></strong>. Explore these answers to make
+                informed decisions and confidently embark on your move with us.</p> -->
+                    <!-- <div class="box-nav-flx py-3">
                         <div class="quote-btn">
                             <a href="quote.php">Request A Quote</a>
                         </div>
@@ -562,36 +594,26 @@
                             <a href="tel:301-868-0320">Call Us:
                                 301-868-0320</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-            <div class="col-md-4">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49707.15996501417!2d-77.01349585300933!3d38.86228091299519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b844c33cb89d%3A0xb6f40376814d4157!2sWashington%2C%20DC%2020020%2C%20USA!5e0!3m2!1sen!2snp!4v1706694168821!5m2!1sen!2snp"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-md-4 p-div d-none d-md-block">
+                    <div class="fqas-img">
+                        <img loading="lazy" src="assets/img/abt.jpg" alt="happy People">
+                    </div>
+                    <div class="call-fly">
+                    <i class="fa-solid fa-phone"></i>  <a href="tel:301-868-0320">Call Us:301-868-0320</a>
+                    </div>
+                    <div class=" qtn-fly">
+                    <i class="fa-solid fa-paper-plane"></i>  <a href="quote.php">Request A Quote</a>
+                    </div>
             </div>
-            <p>At <span class="grn-text">JohnSon Moving & Storage</span>, we understand that the decision hiring movers
-                raises questions. For your peace of mind
-                and a seamless moving experience, we've addressed common queries <strong><a
-                        href="faqs.php">HERE</a></strong>. Explore these answers to make
-                informed decisions and confidently embark on your move with us.</p>
+
         </div>
     </div>
 </section>
 
-<!-- ===keyword========== -->
-<section class="key-box">
-    <div class="container">
-        <!-- <strong>Popular Search</strong> -->
-        <p><a href="#">Prince Georges County</a> | <a href="#">Local Maryland</a> | <a href="#">Md Moving company - Johnson Moving and Storage – Clinton MD moving and
-            storage experts for home</a>  | <a href="#"> office</a> | <a href="#"> business</a> | <a href="#"> apartments </a> | <a href="#"> organs or pianos</a> | <a href="#"> fragile furniture </a> | <a href="#"> pictures</a> | <a href="#">
-            musical instruments. Large or small jobs welcome. Northern VA</a> | <a href="#"> Local</a> | <a href="#"> National Worldwide Moving Company -
-            Best</a> | <a href="#"> top</a> | <a href="#"> local </a> | <a href="#"> good</a> | <a href="#"> Clinton</a> | <a href="#"> MD</a> | <a href="#"> Largo</a> | <a href="#"> Mitchellville</a> | <a href="#"> Landover</a> | <a href="#"> Bowie</a> | <a href="#"> Upper Marlboro</a> | <a href="#"> Waldorf</a> | <a href="#"> Oxon
-            Hill</a> | <a href="#"> Temple Hills</a> | <a href="#"> Capital Heights</a> | <a href="#"> Ft. Washington</a> | <a href="#"> Washington DC</a> | <a href="#"> Virginia</a> | <a href="#"> Maryland. Prince Georges
-            County</a> | <a href="#"> Maryland</a> | <a href="#"> Delaware</a> | <a href="#"> Montgomery County</a> | <a href="#"> St. Charles County.</a></p>
-    </div>
-</section>
+
 <!-- ---------------------------footer starts--------------------- -->
 <?php
 
@@ -599,7 +621,7 @@ include('inc/footer.php');
 include('inc/js.php')
     ?>
 
-<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+<script>const navItems = document.querySelectorAll('.nav-links ul.links  > li ');
     if (navItems.length >= 1) {
         navItems[0].classList.add("active");
     }

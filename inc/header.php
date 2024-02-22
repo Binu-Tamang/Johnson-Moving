@@ -13,9 +13,8 @@
     <title>Johnson Moving And Storage </title>
 </head>
 
-<body>
-
-    <header class="main-header">
+<body class="no-scroll">
+    <header class="main-header respo-h">
         <div class="nav-up d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
@@ -59,7 +58,7 @@
                                                 301-894-4215</a></li>
                                     </ul>
                                     <div class="quote-btn d-none d-md-block">
-                                        <a href="quote.php">Request A Quote</a>
+                                        <a href="quote.php"><i class="fa-solid fa-paper-plane"></i> Request A Quote</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +70,8 @@
         <div class="nav-list">
             <nav class="menu-list-header" id="navbar">
                 <div class="navbar">
-                    <div class="logo navbar-brand d-block d-md-none"><a href="index.php">
+                    <div class="logo navbar-brand d-block d-md-none">
+                        <a href="index.php">
                             <img src="assets/img/logo.png" alt="logo">
                         </a></div>
                     <i class='bx bx-menu'></i>
@@ -80,39 +80,39 @@
                             <a class="navbar-brand" href="index.php">
                                 <img src="assets/img/logo.png" alt="logo">
                             </a>
-                            <i class='bx bx-x'></i>
+                            <i class='bx bx-x' id="close-btn"></i>
                         </div>
                         <ul class="links">
-                            <li><a href="index.php">HOME</a></li>
+                            <li><a class="a-nav" href="index.php">HOME</a></li>
                             <li>
-                                <a href="about-us.php">ABOUT US</a>
+                                <a class="a-nav" href="about-us.php">ABOUT US</a>
                             </li>
                             <li>
-                                <a href="services.php">OUR SERVICES</a>
+                                <a class="a-nav" href="services.php">OUR SERVICES</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-                                    <ul class="htmlCss-sub-menu sub-menu">
-                                        <li class="drop-d"><a href="service-detail.php">Moving</a></li>
-                                        <li class="drop-d"><a href="service-detail.php">Storage</a></li>
-                                        <li class="drop-d"><a href="service-detail.php">Packing</a></li>
-                                        <li class="drop-d"><a href="service-detail.php">Crating</a></li>
-                                        <li class="drop-d"><a href="service-detail.php">Shipping</a></li>
-                                        <li class="drop-d"><a href="service-detail.php">Office Moves</a></li>
-                                    </ul>
+                                <ul class="htmlCss-sub-menu sub-menu">
+                                    <li class="drop-d"><a href="service-detail.php">Moving</a></li>
+                                    <li class="drop-d"><a href="service-detail.php">Storage</a></li>
+                                    <li class="drop-d"><a href="service-detail.php">Packing</a></li>
+                                    <li class="drop-d"><a href="service-detail.php">Crating</a></li>
+                                    <li class="drop-d"><a href="service-detail.php">Shipping</a></li>
+                                    <li class="drop-d"><a href="service-detail.php">Office Moves</a></li>
+                                </ul>
                             </li>
                             <li>
-                                <a href="area-we-serve.php">AREA WE SERVE</a>
+                                <a class="a-nav" href="area-we-serve.php">AREA WE SERVE</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
-                                            <ul class="htmlCss-sub-menu sub-menu">
-                                                <li class="drop-d"><a href="area-we-serve-details.php">Location A</a></li>
-                                                <li class="drop-d"><a href="area-we-serve-details.php">Location B</a></li>
-                                                <li class="drop-d"><a href="area-we-serve-details.php">Location C</a></li>
-                                                <li class="drop-d"><a href="area-we-serve-details.php">Location D</a></li>
-                                                <li class="drop-d"><a href="area-we-serve-details.php">Location E</a></li>
-                                                <li class="drop-d"><a href="area-we-serve-details.php">Location F</a></li>
-                                            </ul>
+                                <ul class="htmlCss-sub-menu sub-menu">
+                                    <li class="drop-d"><a href="area-we-serve-details.php">Location A</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php">Location B</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php">Location C</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php">Location D</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php">Location E</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php">Location F</a></li>
+                                </ul>
                             </li>
 
-                            <li><a href="contact-us.php">CONTACT US</a></li>
+                            <li><a class="a-nav" href="contact-us.php">CONTACT US</a></li>
                         </ul>
                     </div>
                 </div>

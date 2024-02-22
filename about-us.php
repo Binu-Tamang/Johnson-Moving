@@ -93,7 +93,7 @@
                             deliver effective, timely, and cost-efficient relocation assistance in MD, VA, and the
                             entire Washington D.C. region. </p>
                         <div class="web-btn">
-                            <a href="#"> More Services</a>
+                            <a href="services.php"> More Services</a>
                         </div>
                     </div>
                 </div>
@@ -106,8 +106,6 @@
                             <li><i class="fa-solid fa-arrow-right"></i> Organ & Piano Moving</li>
                             <li><i class="fa-solid fa-arrow-right"></i> On Time Pick-up & Delivery</li>
                             <li><i class="fa-solid fa-arrow-right"></i> Affordable Storage</li>
-                        </ul>
-                        <ul class="serv-stro-list">
                             <li><i class="fa-solid fa-arrow-right"></i> Easily Accessible</li>
                             <li><i class="fa-solid fa-arrow-right"></i> Reasonable Rates</li>
                             <li><i class="fa-solid fa-arrow-right"></i> Local & Long Distance</li>
@@ -163,7 +161,7 @@ include('inc/footer.php');
 include('inc/js.php')
     ?>
 
-<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+<script>const navItems = document.querySelectorAll('.nav-links ul.links  > li ');
     if (navItems.length >= 2) {
         navItems[1].classList.add("active");
     }

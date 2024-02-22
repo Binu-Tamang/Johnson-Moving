@@ -57,7 +57,7 @@
                         <strong>Moving</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <strong>Storage</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                         <strong>Packing</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                         <strong>Crating</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <strong>Shipping</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                         <strong>Easily Accessible</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                         <strong>Home / Apartment</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ include('inc/footer.php');
 include('inc/js.php')
     ?>
 
-<script>const navItems = document.querySelectorAll('.navbar-nav  > li a');
+<script>const navItems = document.querySelectorAll('.nav-links ul.links  > li ');
     if (navItems.length >= 3) {
         navItems[2].classList.add("active");
     }

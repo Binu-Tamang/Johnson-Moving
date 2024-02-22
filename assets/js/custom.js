@@ -1,15 +1,32 @@
-let navbar = document.querySelector(".navbar");
+document.addEventListener("DOMContentLoaded", function () {
+  let html = document.querySelector("html");
+  let body = document.querySelector("body");
+  let navLinks = document.querySelector(".nav-links");
+  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
 
-// sidebar open close js code
-let navLinks = document.querySelector(".nav-links");
-let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-let menuCloseBtn = document.querySelector(".nav-links .bx-x");
-menuOpenBtn.onclick = function() {
-navLinks.style.left = "0";
-}
-menuCloseBtn.onclick = function() {
-navLinks.style.left = "-100%";
-}
+  menuOpenBtn.onclick = function() {
+      navLinks.style.left = "0";
+      html.style.overflow = "hidden";  // Disable scrolling
+      body.style.overflow = "hidden";
+  };
+
+  menuCloseBtn.onclick = function() {
+      navLinks.style.left = "-100%";
+      html.style.overflow = "auto";  // Enable scrolling
+      body.style.overflow = "auto";
+  };
+
+  document.addEventListener("click", function(e) {
+      // Check if the clicked element is not inside navLinks or the menuOpenBtn
+      if (!navLinks.contains(e.target) && !menuOpenBtn.contains(e.target)) {
+          // Clicked outside navbar and navLinks, close the navbar and enable scrolling
+          navLinks.style.left = "-100%";
+          html.style.overflow = "auto";
+          body.style.overflow = "auto";
+      }
+  });
+});
 
 // navbar sticky
 $(document).ready(function(){
@@ -22,6 +39,22 @@ $(document).ready(function(){
     }
     else {
       $('.menu-list-header').removeClass('fixed');
+    }
+ });
+});
+
+
+// navbar sticky respo
+$(document).ready(function(){
+  $(window).bind('scroll', function() {
+  var navHeight = $( window ).height() - 460;
+  console.log(navHeight);
+    if ($(window).scrollTop() > navHeight) {
+      console.log($( window ).height());
+      $('.respo-h').addClass('fixed');
+    }
+    else {
+      $('.respo-h').removeClass('fixed');
     }
  });
 });
@@ -51,10 +84,6 @@ $(".header-carousel").owlCarousel({
     '<i class="fa-solid fa-angle-left"></i>',
     '<i class="fa-solid fa-angle-right"></i>',
   ],
-});
-
-$(function () {
-  $("#main-menu").smartmenus();
 });
 
 // wow js
