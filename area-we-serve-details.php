@@ -26,7 +26,7 @@
                                 Excepturi, quia.
                                 <br> <br>
                                 <strong>We also move Junk.
-                                        Call us: <a href="tel:301-868-0320"> 301-868-0320</a> if you are in need of junk
+                                        Call us: <a href="tel:202-329-5995"> 202-329-5995</a> if you are in need of junk
                                         removal in the
                                         Washington DC Metro Area.</strong>
                                 <div class="area-serve-map py-4">

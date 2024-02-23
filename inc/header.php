@@ -21,15 +21,15 @@
                     <div class="col-md-6 wht-box">
                         <div class="nav-up-contact">
                             <!-- <ul class="navbar-contact">
-                                <li><a href="tel:301-868-0320"><i class="fa-solid fa-phone"></i> 301-868-0320</a></li>
-                                <li><a href="tel:301-894-4215"><i class="fa-solid fa-phone"></i> 301-894-4215</a></li>
+                                <li><a href="tel:202-329-5995"><i class="fa-solid fa-phone"></i> 202-329-5995</a></li>
+                                <li><a href="tel:202-329-5995"><i class="fa-solid fa-phone"></i> 202-329-5995</a></li>
                             </ul> -->
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="nav-social-icon">
                             <ul class="nav-social-list">
-                                <!-- <li class="gap-li"><a href="tel:301-868-0320"><i class="fa-solid fa-phone"></i>Call Us: 301-868-0320</a></li> -->
+                                <!-- <li class="gap-li"><a href="tel:202-329-5995"><i class="fa-solid fa-phone"></i>Call Us: 202-329-5995</a></li> -->
                                 <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -52,10 +52,10 @@
                             <div class="col-md-8">
                                 <div class="nav-up-contact">
                                     <ul class="navbar-contact">
-                                        <li><i class="fa-solid fa-phone"></i> <a href="tel:301-868-0320">Call Us:
-                                                301-868-0320</a></li>
-                                        <li><i class="fa-solid fa-phone"></i> <a href="tel:301-894-4215">Call Us:
-                                                301-894-4215</a></li>
+                                        <li><i class="fa-solid fa-phone"></i> <a href="tel:202-329-5995">Call Us:
+                                                202-329-5995</a></li>
+                                        <li><i class="fa-solid fa-phone"></i> <a href="tel:202-329-5995">Call Us:
+                                                202-329-5995</a></li>
                                     </ul>
                                     <div class="quote-btn d-none d-md-block">
                                         <a href="quote.php"><i class="fa-solid fa-paper-plane"></i> Request A Quote</a>
@@ -103,12 +103,16 @@
                                 <a class="a-nav" href="area-we-serve.php">AREA WE SERVE</a>
                                 <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
                                 <ul class="htmlCss-sub-menu sub-menu">
-                                    <li class="drop-d"><a href="area-we-serve-details.php">Location A</a></li>
-                                    <li class="drop-d"><a href="area-we-serve-details.php">Location B</a></li>
-                                    <li class="drop-d"><a href="area-we-serve-details.php">Location C</a></li>
-                                    <li class="drop-d"><a href="area-we-serve-details.php">Location D</a></li>
-                                    <li class="drop-d"><a href="area-we-serve-details.php">Location E</a></li>
-                                    <li class="drop-d"><a href="area-we-serve-details.php">Location F</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Washington, D.C</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Alexandria, Virginia</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Gaithersburg</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Bethesda</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Alexander City</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Anniston</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Arlington, Virginia</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Frederick</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Rockville</a></li>
+                                    <li class="drop-d"><a href="area-we-serve-details.php"> Silver Spring</a></li>
                                 </ul>
                             </li>
 
@@ -125,8 +129,8 @@
                         <a href="quote.php">Request A Quote</a>
                     </div>
                     <div class="quote-btn bounce_wrapper">
-                        <a href="tel:301-868-0320">Call Us:
-                            301-868-0320</a>
+                        <a href="tel:202-329-5995">Call Us:
+                            202-329-5995</a>
                     </div>
                 </div>
             </div>

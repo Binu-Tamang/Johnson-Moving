@@ -27,8 +27,8 @@
                         <div class="cnt-wrapper-d choose-d">
                             <i class="fa-solid fa-phone-volume"></i>
                             <strong>Phone Number</strong>
-                            <a href="tel:301-868-0320">301-868-0320</a> <br>
-                            <a href="tel:301-894-4215">301-894-4215</a>
+                            <a href="tel:202-329-5995">202-329-5995</a> <br>
+                            
                         </div>
                     </div>
                     <div class="col-md-4">

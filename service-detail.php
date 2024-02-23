@@ -8,6 +8,10 @@ $page_name = $_GET['title'] ?? "Services";
 
 ?>
 <!-- banner and header page  -->
+<?php
+$page_name = $_GET['title'] ?? "Services";
+?>
+
 <?php $page_name = 'Local Moving' ?>
 <?php include('inc/sub-banner.php') ?>
 <!-- banner and header page -->
@@ -17,7 +21,9 @@ $page_name = $_GET['title'] ?? "Services";
 
         <div class="row">
             <div class="col-lg-8 col-12">
-                <h2 class="web-header text-start" data-wow-duration="1s">Local Moving Services</h2>
+                <h2 class="web-header text-start" data-wow-duration="1s">
+                <?php echo $page_name ?>
+                </h2>
                 <div class="span-line justify-content-start">
                     <span class="web-line text-start"></span>
                 </div>
@@ -58,23 +64,23 @@ $page_name = $_GET['title'] ?? "Services";
                             </li> -->
                             <!-- <li><a aria-label="about the services we provided" href="service-detail.php"><i
                                         class="fa-solid fa-gear"></i> Packing</a></li> -->
-                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php?title=Packing"><i
                                         class="fa-solid fa-gear"></i> Packing
                                 </a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php?title=Shipping"><i
                                         class="fa-solid fa-gear"></i>
                                     Shipping</a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php?title=Storage"><i
                                         class="fa-solid fa-gear"></i> Storage
                                 </a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php?title=Crating"><i
                                         class="fa-solid fa-gear"></i> Crating
                                 </a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="service-detail.php"><i
+                            <li><a aria-label="about the services we provided" href="service-detail.php?title=Office Moves"><i
                                         class="fa-solid fa-gear"></i> Office Moves
                                 </a>
                             </li>
@@ -82,8 +88,8 @@ $page_name = $_GET['title'] ?? "Services";
                     </div>
 
                     <!-- <div class="quote-btn bounce_wrapper text-center">
-                        <a href="tel:301-868-0320">Call Us:
-                            301-868-0320</a>
+                        <a href="tel:202-329-5995">Call Us:
+                            202-329-5995</a>
                     </div> -->
                 </div>
             </div>
@@ -182,8 +188,8 @@ $page_name = $_GET['title'] ?? "Services";
                             <a href="quote.php">Request A Quote</a>
                         </div>
                         <div class="quote-btn">
-                            <a href="tel:301-868-0320">Call Us:
-                                301-868-0320</a>
+                            <a href="tel:202-329-5995">Call Us:
+                                202-329-5995</a>
                         </div>
                     </div> -->
                 </div>
@@ -193,7 +199,7 @@ $page_name = $_GET['title'] ?? "Services";
                     <img src="assets/img/packing-box.webp" alt="packing box">
                 </div>
                 <div class="call-fly">
-                    <i class="fa-solid fa-phone"></i> <a href="tel:301-868-0320">Call Us:301-868-0320</a>
+                    <i class="fa-solid fa-phone"></i> <a href="tel:202-329-5995">Call Us:202-329-5995</a>
                 </div>
                 <div class=" qtn-fly">
                     <i class="fa-solid fa-paper-plane"></i> <a href="quote.php">Request A Quote</a>

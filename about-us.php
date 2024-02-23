@@ -38,7 +38,7 @@
                         assumenda.
                     </p>
                     <strong class="main-color">Call us today for 24hr Johnson Moving Service <a
-                            href="tel:301-868-0320">301-868-0320</a></strong>
+                            href="tel:202-329-5995">202-329-5995</a></strong>
                 </div>
             </div>
             <div class="col-md-4">

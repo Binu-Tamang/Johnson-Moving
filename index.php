@@ -7,7 +7,7 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img  src="assets/img/banner-1.png" alt="Image">
+                <img src="assets/img/banner-1.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3 banner-header" style="max-width: 900px;">
                         <!-- <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Moving &
@@ -16,8 +16,9 @@
                             To <br> JohnSon
                             Moving And Storage</strong>
                         <div class="banner-slider-btn">
-                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i class="fa-solid fa-paper-plane"></i> Get A
-                             Fee
+                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i
+                                    class="fa-solid fa-paper-plane"></i> Get A
+                                Fee
                                 Estimate</a>
                             <a href="tel:301-894-4215"
                                 class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Call
@@ -27,7 +28,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img  src="assets/img/banner-3.jpg" alt="Image">
+                <img src="assets/img/banner-3.jpg" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3 banner-header" style="max-width: 900px;">
                         <!-- <span class="d-block text-white text-uppercase mb-3 animated slideInDown">Johnson
@@ -35,10 +36,10 @@
                         <strong class="banner-slider-h display-1 d-block text-white mb-md-4 animated zoomIn">Get a Free
                             <br> Moving Services Quote</strong>
                         <div class="banner-slider-btn">
-                            <a href="quote.php"
-                                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i class="fa-solid fa-paper-plane"></i> Request A
+                            <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i
+                                    class="fa-solid fa-paper-plane"></i> Request A
                                 Quote</a>
-                            <a href="tel:301-868-0320"
+                            <a href="tel:202-329-5995"
                                 class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Call
                                 Us Now</a>
                         </div>
@@ -152,7 +153,7 @@
                         hospitals, stores, furniture, fixtures, equipment, computers, machines, fine arts, stock,
                         inventory, delicate instruments and more.</p>
                     <div class="web-btn">
-                        <a href="#">Read More</a>
+                        <a href="about-us.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -235,13 +236,14 @@
                                 </div>
                             </div>
                             <div class="formfield formfield-submit">
-                                <button type="submit" class="submit-form"><i class="fa-solid fa-paper-plane"></i> Submit Now</button>
+                                <button type="submit" class="submit-form"><i class="fa-solid fa-paper-plane"></i> Submit
+                                    Now</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <strong>We also move Junk.
-                    Call us: <a href="tel:301-868-0320"> 301-868-0320</a> if you are in need of junk removal in the
+                    Call us: <a href="tel:202-329-5995"> 202-329-5995</a> if you are in need of junk removal in the
                     Washington DC Metro Area.</strong>
             </div>
         </div>
@@ -267,8 +269,8 @@
                             <a href="quote.php">Request A Quote</a>
                         </div>
                         <div class="quote-btn qtn-fly">
-                            <a href="tel:301-868-0320">Call Us:
-                                301-868-0320</a>
+                            <a href="tel:202-329-5995">Call Us:
+                                202-329-5995</a>
                         </div>
                     </div> -->
                     <div class="abt-us-context fly-ul">
@@ -304,14 +306,14 @@
                 </div>
             </div>
         </div>
-        <p> <strong>Our experienced employees will insure a
+        <p> <strong class="d-block text-center">Our experienced employees will insure a
                 smooth, well-coordinated move.</strong> <br>We also have boxes, wardrobes and packing material available
             for you. Our professional drivers and movers
             always use the white glove approach in the handling of your valuables. We provide free estimates and gladly
             accept MasterCard, Visa, Discover and American Express. Please ask about our Senior Citizen coupon and other
             cash discounts.</p>
         <div class="web-btn text-center">
-            <a href="#">View More</a>
+            <a href="about-us.php">View More</a>
         </div>
     </div>
 </section>
@@ -327,68 +329,72 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="serv-box box-serv-content">
-                        <h3 class="serv-topic">Moving every customer with care</h3>
+                        <img src="assets/img/m-care.png" alt="moving with care">
+
+                        <p class="serv-topic typing-animation">Moving every customer</p>
+                        <p class="serv-topic typing-animation"> with care</p>
                     </div>
+
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 wow bounceInLeft"
                     style="visibility: visible; animation-name: bounceInLeft;">
                     <div class="serv-box box-dash">
-                        <i class="fa-solid fa-gears"></i>
+                        <i class="fa-solid fa-truck"></i>
                         <strong>Moving</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 wow bounceInLeft"
                     style="visibility: visible; animation-name: bounceInLeft;">
                     <div class="serv-box box-dash">
-                        <i class="fa-solid fa-gears"></i>
+                        <i class="fa-solid fa-warehouse"></i>
                         <strong>Storage</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 wow bounceInLeft"
                     style="visibility: visible; animation-name: bounceInLeft;">
                     <div class="serv-box box-dash serv-box-limit">
-                        <i class="fa-solid fa-gears"></i>
+                        <i class="fa-solid fa-box-open"></i>
                         <strong>Packing</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 wow bounceInLeft"
                     style="visibility: visible; animation-name: bounceInLeft;">
                     <div class="serv-box box-dash serv-box-limit">
-                        <i class="fa-solid fa-gears"></i>
+                        <i class="fa-solid fa-boxes"></i>
                         <strong>Crating</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 wow bounceInLeft"
                     style="visibility: visible; animation-name: bounceInLeft;">
                     <div class="serv-box box-dash serv-box-limit">
-                        <i class="fa-solid fa-gears"></i>
+                        <i class="fa-solid fa-truck-front"></i>
                         <strong>Shipping</strong>
                         <p>Consectetuer quisque neque sem interdum himenaeos auctor blandit elementum commodo</p>
                         <div class="choose-learn">
-                            <a href="#">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="service-detail.php">Read More <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="web-btn">
-            <a href="#"> More Services</a>
+            <a href="services.php"> More Services</a>
         </div>
     </div>
 </section>
@@ -430,7 +436,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img loading="lazy" src="assets/img/cartons_packingmaterialsLAR.jpg" alt="packing details with box">
+                            <img loading="lazy" src="assets/img/cartons_packingmaterialsLAR.jpg"
+                                alt="packing details with box">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -591,22 +598,22 @@
                             <a href="quote.php">Request A Quote</a>
                         </div>
                         <div class="quote-btn">
-                            <a href="tel:301-868-0320">Call Us:
-                                301-868-0320</a>
+                            <a href="tel:202-329-5995">Call Us:
+                                202-329-5995</a>
                         </div>
                     </div> -->
                 </div>
             </div>
             <div class="col-md-4 p-div d-none d-md-block">
-                    <div class="fqas-img">
-                        <img loading="lazy" src="assets/img/abt.jpg" alt="happy People">
-                    </div>
-                    <div class="call-fly">
-                    <i class="fa-solid fa-phone"></i>  <a href="tel:301-868-0320">Call Us:301-868-0320</a>
-                    </div>
-                    <div class=" qtn-fly">
-                    <i class="fa-solid fa-paper-plane"></i>  <a href="quote.php">Request A Quote</a>
-                    </div>
+                <div class="fqas-img">
+                    <img loading="lazy" src="assets/img/abt.jpg" alt="happy People">
+                </div>
+                <div class="call-fly">
+                    <i class="fa-solid fa-phone"></i> <a href="tel:202-329-5995">Call Us:202-329-5995</a>
+                </div>
+                <div class=" qtn-fly">
+                    <i class="fa-solid fa-paper-plane"></i> <a href="quote.php">Request A Quote</a>
+                </div>
             </div>
 
         </div>

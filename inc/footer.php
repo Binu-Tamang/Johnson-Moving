@@ -42,10 +42,10 @@
                         <ul class="footer-contact">
                             <li><i class="fa-solid fa-location-dot"></i> <a href="#">Washington, DC </a></li>
                             <li><i class="fa-solid fa-phone"></i>
-                                <span><a href="tel:301-868-0320">301-868-0320 </a> </span>
+                                <span><a href="tel:202-329-5995">202-329-5995 </a> </span>
                             </li>
                             <li><i class="fa-solid fa-phone"></i>
-                                <span><a href="tel:301-894-4215">301-894-4215 </a> </span>
+                                <span><a href="tel:202-329-5995">202-329-5995 </a> </span>
                             </li>
                             <li><i class="fa-solid fa-envelope"></i> <a href="#">jms778@live.com </a></li>
                         </ul>

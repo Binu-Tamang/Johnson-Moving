@@ -2419,3 +2419,23 @@ nav.menu-list-header.fixed ul.links li:hover a.a-nav {
 iframe {
   width: 100%;
 }
+
+/* ======typing animation css strats ========== */
+.serv-topic {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid transparent; /* Add a border to simulate typing cursor */
+  animation: typing 5s steps(40, end) infinite; /* Increased duration to 5s for a slower speed */
+}
+
+@keyframes typing {
+  from, to {
+    width: 0;
+  }
+  50% {
+    border-color: black; /* Change border color at the middle for cursor effect */
+  }
+  100% {
+    width: 100%;
+  }
+}

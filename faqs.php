@@ -128,39 +128,31 @@
                         <ul class="services-menu-list">
                             <li><a aria-label="about the services we provided" href="services-details-page.php"><i
                                         class="fa-solid fa-gear"></i>
-                                    Local Moves</a>
+                                    Moving</a>
                             </li>
                             <li><a aria-label="about the services we provided" href="services-details-page.php"><i
-                                        class="fa-solid fa-gear"></i> Long Distance
-                                    Moves</a>
+                                        class="fa-solid fa-gear"></i> Packing
+                                    </a>
                             </li>
                             <li><a aria-label="about the services we provided" href="services-details-page.php"><i
-                                        class="fa-solid fa-gear"></i> Offices Moves</a></li>
+                                        class="fa-solid fa-gear"></i> Shipping</a></li>
                             <li><a aria-label="about the services we provided" href="services-details-page.php"><i
-                                        class="fa-solid fa-gear"></i> Commercial
-                                    Moves</a>
+                                        class="fa-solid fa-gear"></i> Storage
+                                    </a>
                             </li>
                             <li><a aria-label="about the services we provided" href="services-details-page.php"><i
                                         class="fa-solid fa-gear"></i>
-                                    Assembly/Disassembly</a>
+                                    Crating</a>
                             </li>
                             <li><a aria-label="about the services we provided" href="services-details-page.php"><i
-                                        class="fa-solid fa-gear"></i> Packing/Equipment</a>
+                                        class="fa-solid fa-gear"></i>  Office Moves
+                                    </a>
                             </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
-                                        class="fa-solid fa-gear"></i> Packing And
-                                    Unpacking</a>
-                            </li>
-                            <li><a aria-label="about the services we provided" href="services-details-page.php"><i
-                                        class="fa-solid fa-gear"></i> Available Storage
-                                    Facilities</a>
-                            </li>
-
                         </ul>
                     </div>
                     <div class="quote-btn bounce_wrapper text-center">
-                        <a href="tel:301-868-0320">Call Us:
-                            301-868-0320</a>
+                        <a href="tel:202-329-5995">Call Us:
+                            202-329-5995</a>
                     </div>
                 </div>
             </div>
